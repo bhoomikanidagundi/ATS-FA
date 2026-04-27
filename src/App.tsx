@@ -57,6 +57,8 @@ export default function App() {
             {/* Recruiter Routes */}
             <Route element={<ProtectedRoute allowedRoles={['recruiter']}><Outlet /></ProtectedRoute>}>
               <Route path="/recruiter-dashboard" element={<RecruiterDashboard />} />
+              <Route path="/jobs" element={<RecruiterDashboard />} />
+              <Route path="/talent" element={<RecruiterDashboard />} />
             </Route>
           </Route>
         </Routes>

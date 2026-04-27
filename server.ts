@@ -5,7 +5,7 @@ import express from "express";
 import { createServer as createViteServer } from "vite";
 import path from "path";
 import multer from "multer";
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 // @ts-ignore
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
@@ -138,6 +138,7 @@ const initializeDB = async () => {
         skills JSON,
         salary VARCHAR(255),
         notice_period VARCHAR(255),
+        candidate_name VARCHAR(255),
         createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
         FOREIGN KEY (recruiterId) REFERENCES users(id)
       )
@@ -145,12 +146,14 @@ const initializeDB = async () => {
 
     // Migration for jobs table
     const jobColumns = [
+      ["recruiterId", "VARCHAR(255)"],
       ["role", "VARCHAR(255)"],
       ["years_of_exp", "VARCHAR(255)"],
       ["work_mode", "VARCHAR(255)"],
       ["skills", "JSON"],
       ["salary", "VARCHAR(255)"],
-      ["notice_period", "VARCHAR(255)"]
+      ["notice_period", "VARCHAR(255)"],
+      ["candidate_name", "VARCHAR(255)"]
     ];
 
     for (const [colName, colType] of jobColumns) {
@@ -380,7 +383,7 @@ app.get("/api/auth/google/callback", async (req, res) => {
 });
 
 // --- ATS Engine Details ---
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "" });
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "");
 
 // --- Resume APIs ---
 
@@ -447,17 +450,29 @@ app.post("/api/analyzeResume", authMiddleware, allowRoles("candidate"), async (r
     }
     `;
 
-    const aiResp1 = await ai.models.generateContent({
-      model: "gemini-2.0-flash",
-      contents: prompt,
-    });
-    let resultText = (aiResp1.text || "").replace(/```json\n/g, "").replace(/```\n?/g, "").trim();
-    const result = JSON.parse(resultText);
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const aiResp1 = await model.generateContent(prompt);
+    
+    let resultText = (aiResp1.response.text() || "").trim();
+    // Clean markdown if present
+    if (resultText.includes("```")) {
+      resultText = resultText.replace(/```json\n/g, "").replace(/```\n?/g, "").trim();
+    }
+    
+    console.log("AI Raw Response (analyzeResume):", resultText);
+    
+    let result;
+    try {
+      result = JSON.parse(resultText);
+    } catch (parseError) {
+      console.error("JSON Parse Error in analyzeResume:", parseError);
+      return res.status(500).json({ error: "Failed to parse AI response" });
+    }
 
     // Update DB with parsed data
     await pool.query(
       "UPDATE resumes SET parsed_skills = ?, parsed_education = ?, parsed_experience = ? WHERE id = ?",
-      [JSON.stringify(result.skills), JSON.stringify(result.education), JSON.stringify(result.experience), resume_id]
+      [JSON.stringify(result.skills || []), JSON.stringify(result.education || []), JSON.stringify(result.experience || []), resume_id]
     );
 
     res.json(result);
@@ -544,16 +559,17 @@ app.post("/api/analyze", authMiddleware, allowRoles("candidate"), upload.single(
     ${resumeText.substring(0, 8000)} // Truncate if extremely long to avoid token limits
     `;
 
-    const aiResp2 = await ai.models.generateContent({
-      model: "gemini-2.0-flash",
-      contents: prompt,
-    });
-    let resultText = (aiResp2.text || "").replace(/```json\n/g, "").replace(/```\n?/g, "").trim();
-
-    if (resultText.startsWith("```json")) {
-      resultText = resultText.substring(7);
-      if (resultText.endsWith("```")) resultText = resultText.substring(0, resultText.length - 3);
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const aiResp2 = await model.generateContent(prompt);
+    
+    let resultText = (aiResp2.response.text() || "").trim();
+    
+    // Robust cleaning of markdown code blocks
+    if (resultText.includes("```")) {
+      resultText = resultText.replace(/```json\s?/g, "").replace(/```/g, "").trim();
     }
+
+    console.log("AI Raw Response (analyze):", resultText);
 
     // Attempt parse
     let fullResult;
@@ -645,11 +661,9 @@ app.post("/api/resume/build", authMiddleware, allowRoles("candidate"), async (re
     }
     `;
 
-    const response = await ai.models.generateContent({
-      model: "gemini-2.0-flash",
-      contents: prompt,
-    });
-    let resultText = response.text || "";
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const aiResponse = await model.generateContent(prompt);
+    let resultText = aiResponse.response.text() || "";
     resultText = resultText.replace(/```json\n/g, "").replace(/```\n?/g, "").trim();
 
     if (resultText.startsWith("```json")) {
@@ -783,11 +797,11 @@ app.get("/api/applications", authMiddleware, async (req: any, res) => {
       const [apps] = await pool.query<any[]>(`
         SELECT a.*, u.name as candidateName, u.email as candidateEmail, r.filename as resumeFile, j.title as jobTitle
         FROM applications a
-        JOIN users u ON a.candidateId = u.id
-        LEFT JOIN resumes r ON a.resumeId = r.id
-        JOIN jobs j ON a.jobId = j.id
-        WHERE j.recruiterId = ?
-        ORDER BY a.createdAt DESC
+        JOIN users u ON a.user_id = u.id
+        LEFT JOIN resumes r ON a.resume_id = r.id
+        JOIN jobs j ON a.job_id = j.id
+        WHERE j.recruiter_id = ?
+        ORDER BY a.applied_at DESC
       `, [req.userId]);
       return res.json(apps);
     } else {
@@ -795,9 +809,9 @@ app.get("/api/applications", authMiddleware, async (req: any, res) => {
       const [apps] = await pool.query<any[]>(`
         SELECT a.*, j.title as jobTitle, j.location as jobLocation
         FROM applications a
-        JOIN jobs j ON a.jobId = j.id
-        WHERE a.candidateId = ?
-        ORDER BY a.createdAt DESC
+        JOIN jobs j ON a.job_id = j.id
+        WHERE a.user_id = ?
+        ORDER BY a.applied_at DESC
       `, [req.userId]);
       return res.json(apps);
     }
@@ -807,13 +821,14 @@ app.get("/api/applications", authMiddleware, async (req: any, res) => {
 });
 // Create a Job
 app.post("/api/jobs", authMiddleware, allowRoles("recruiter"), async (req: any, res) => {
-  const { title, description, location, role, years_of_exp, work_mode, skills, salary, notice_period } = req.body;
+  const { title, description, location, role, years_of_exp, work_mode, skills, salary, notice_period, candidate_name } = req.body;
   const jobId = Date.now().toString();
   try {
     await pool.query(
-      "INSERT INTO jobs (id, recruiterId, title, description, location, role, years_of_exp, work_mode, skills, salary, notice_period) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+      "INSERT INTO jobs (id, recruiterId, recruiter_id, title, description, location, role, years_of_exp, work_mode, skills, salary, notice_period, candidate_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
       [
         jobId,
+        req.userId,
         req.userId,
         title,
         description,
@@ -823,13 +838,14 @@ app.post("/api/jobs", authMiddleware, allowRoles("recruiter"), async (req: any, 
         work_mode || "",
         JSON.stringify(skills || []),
         salary || "",
-        notice_period || ""
+        notice_period || "",
+        candidate_name || ""
       ]
     );
     res.json({ id: jobId, title, role, skills });
-  } catch (error) {
+  } catch (error: any) {
     console.error("Job Creation Error:", error);
-    res.status(500).json({ error: "Failed to create job" });
+    res.status(500).json({ error: "Failed to create job: " + error.message });
   }
 });
 
@@ -857,14 +873,24 @@ app.get("/api/jobs/:id/suggestions", authMiddleware, allowRoles("recruiter"), as
         jobSkills.some((js: string) => s.toLowerCase().includes(js.toLowerCase()) || js.toLowerCase().includes(s.toLowerCase()))
       );
 
+      let nameMatch = false;
+      if (job.candidate_name && c.name) {
+        nameMatch = c.name.toLowerCase().includes(job.candidate_name.toLowerCase());
+      }
+
+      const skillScore = jobSkills.length > 0 ? Math.round((matching.length / jobSkills.length) * 100) : 0;
+      // If name matches, we give a high boost or ensure it's included
+      const finalScore = nameMatch ? Math.max(skillScore, 90) : skillScore;
+
       return {
         ...c,
         matchCount: matching.length,
         matchingSkills: matching,
-        score: jobSkills.length > 0 ? Math.round((matching.length / jobSkills.length) * 100) : 0
+        score: finalScore,
+        nameMatch
       };
     })
-      .filter(c => c.matchCount > 0)
+      .filter(c => c.matchCount > 0 || c.nameMatch)
       .sort((a, b) => b.score - a.score);
 
     res.json(suggestions);
@@ -915,9 +941,8 @@ app.post("/api/scheduleInterview", authMiddleware, allowRoles("recruiter"), asyn
   const { applicationId, date } = req.body;
   const interviewId = Date.now().toString();
   try {
-    // 1. Create interview record
     await pool.query(
-      "INSERT INTO interviews (id, applicationId, scheduledAt) VALUES (?, ?, ?)",
+      "INSERT INTO interviews (id, application_id, date) VALUES (?, ?, ?)",
       [interviewId, applicationId, date]
     );
     // 2. Update application status
@@ -935,11 +960,11 @@ app.get("/api/interviews/me", authMiddleware, allowRoles("recruiter"), async (re
     const [interviews] = await pool.query<any[]>(`
       SELECT i.*, u.name as candidateName, j.title as jobTitle
       FROM interviews i
-      JOIN applications a ON i.applicationId = a.id
-      JOIN jobs j ON a.jobId = j.id
-      JOIN users u ON a.candidateId = u.id
-      WHERE j.recruiterId = ?
-      ORDER BY i.scheduledAt ASC
+      JOIN applications a ON i.application_id = a.id
+      JOIN jobs j ON a.job_id = j.id
+      JOIN users u ON a.user_id = u.id
+      WHERE j.recruiter_id = ?
+      ORDER BY i.date ASC
     `, [req.userId]);
     res.json(interviews);
   } catch (error) {
@@ -948,7 +973,37 @@ app.get("/api/interviews/me", authMiddleware, allowRoles("recruiter"), async (re
 });
 
 
-// --- Candidate APIs ---
+// Get recruiter stats
+app.get("/api/recruiter/stats", authMiddleware, allowRoles("recruiter"), async (req: any, res) => {
+  try {
+    const [[{ totalApplicants }]] = await pool.query<any[]>(
+      "SELECT COUNT(*) as totalApplicants FROM applications a JOIN jobs j ON a.job_id = j.id WHERE j.recruiter_id = ?",
+      [req.userId]
+    );
+    const [[{ activeJobs }]] = await pool.query<any[]>(
+      "SELECT COUNT(*) as activeJobs FROM jobs WHERE recruiter_id = ?",
+      [req.userId]
+    );
+    const [[{ totalInterviews }]] = await pool.query<any[]>(
+      "SELECT COUNT(*) as totalInterviews FROM interviews i JOIN applications a ON i.application_id = a.id JOIN jobs j ON a.job_id = j.id WHERE j.recruiter_id = ?",
+      [req.userId]
+    );
+    const [[{ avgScore }]] = await pool.query<any[]>(
+      "SELECT AVG(match_score) as avgScore FROM applications a JOIN jobs j ON a.job_id = j.id WHERE j.recruiter_id = ?",
+      [req.userId]
+    );
+
+    res.json({
+      totalApplicants: totalApplicants || 0,
+      activeJobs: activeJobs || 0,
+      totalInterviews: totalInterviews || 0,
+      avgScore: Math.round(avgScore || 0)
+    });
+  } catch (error) {
+    console.error("Stats Error:", error);
+    res.status(500).json({ error: "Failed to fetch stats" });
+  }
+});
 
 // Advanced Apply for Job with AI Score
 app.post("/api/applyJob", authMiddleware, allowRoles("candidate"), async (req: any, res) => {
@@ -990,15 +1045,13 @@ app.post("/api/applyJob", authMiddleware, allowRoles("candidate"), async (req: a
     { "score": 85, "matchingSkills": ["..."], "missingSkills": ["..."], "justification": "..." }
     `;
 
-    const aiResponse = await ai.models.generateContent({
-      model: "gemini-2.0-flash",
-      contents: prompt,
-    });
-    const result = JSON.parse((aiResponse.text || "").replace(/```json\n/g, "").replace(/```\n?/g, "").trim());
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+    const aiResponse = await model.generateContent(prompt);
+    const result = JSON.parse((aiResponse.response.text() || "").replace(/```json\n/g, "").replace(/```\n?/g, "").trim());
 
     // 4. Save application with score
     await pool.query(
-      "INSERT INTO applications (id, jobId, candidateId, resumeId, status, matchScore) VALUES (?, ?, ?, ?, 'applied', ?)",
+      "INSERT INTO applications (id, job_id, user_id, resume_id, status, match_score) VALUES (?, ?, ?, ?, 'applied', ?)",
       [applicationId, jobId, req.userId, resumeId, result.score || 0]
     );
 
@@ -1023,13 +1076,13 @@ app.post("/api/applications", authMiddleware, allowRoles("candidate"), async (re
   try {
     // Check if already applied
     const [existing] = await pool.query<any[]>(
-      "SELECT id FROM applications WHERE jobId = ? AND candidateId = ?",
+      "SELECT id FROM applications WHERE job_id = ? AND user_id = ?",
       [jobId, req.userId]
     );
     if (existing.length > 0) return res.status(400).json({ error: "Already applied for this job" });
 
     await pool.query(
-      "INSERT INTO applications (id, jobId, candidateId, resumeId) VALUES (?, ?, ?, ?)",
+      "INSERT INTO applications (id, job_id, user_id, resume_id) VALUES (?, ?, ?, ?)",
       [applicationId, jobId, req.userId, resumeId || null]
     );
     res.json({ id: applicationId, jobId, status: "pending" });
