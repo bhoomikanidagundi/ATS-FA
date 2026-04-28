@@ -31,6 +31,7 @@ const pool = mysql.createPool({
 
 app.use(cors());
 app.use(express.json());
+app.use("/uploads", express.static(path.join(process.cwd(), "uploads")));
 
 // Set up Multer for disk storage
 const storage = multer.diskStorage({
@@ -407,6 +408,21 @@ app.post("/api/uploadResume", authMiddleware, allowRoles("candidate"), upload.si
   } catch (error) {
     console.error("Upload Error:", error);
     res.status(500).json({ error: "Failed to upload resume" });
+  }
+});
+
+app.get("/api/resume/download/:id", authMiddleware, async (req: any, res) => {
+  try {
+    const [resumes] = await pool.query<any[]>("SELECT * FROM resumes WHERE id = ? AND userId = ?", [req.params.id, req.userId]);
+    if (resumes.length === 0) return res.status(404).json({ error: "Resume not found" });
+    
+    const resume = resumes[0];
+    if (!resume.file_path) return res.status(404).json({ error: "File path not found" });
+    
+    res.download(resume.file_path, resume.filename);
+  } catch (error) {
+    console.error("Download Error:", error);
+    res.status(500).json({ error: "Failed to download resume" });
   }
 });
 
@@ -1127,6 +1143,17 @@ async function startServer() {
   app.listen(PORT, "0.0.0.0", () => {
     console.log(`Server running on http://localhost:${PORT}`);
   });
+
+  // Automatic backup every 24 hours
+  setInterval(() => {
+    console.log("Starting scheduled 24-hour backup...");
+    import('child_process').then(({ exec }) => {
+      exec('node backup.js', (err, stdout, stderr) => {
+        if (err) console.error("Scheduled backup failed:", stderr);
+        else console.log("Scheduled backup completed.");
+      });
+    });
+  }, 24 * 60 * 60 * 1000);
 }
 
 startServer();

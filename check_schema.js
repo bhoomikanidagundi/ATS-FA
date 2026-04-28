@@ -4,19 +4,19 @@ dotenv.config();
 
 async function checkSchema() {
   const pool = mysql.createPool(process.env.MYSQL_URL);
-  
+
   try {
     const [jobsCols] = await pool.query("DESCRIBE jobs");
     console.log("JOBS TABLE COLUMNS:");
     console.table(jobsCols);
 
-    const [resumesCols] = await pool.query("DESCRIBE resumes");
-    console.log("RESUMES TABLE COLUMNS:");
-    console.table(resumesCols);
+    const [appCols] = await pool.query("DESCRIBE applications");
+    console.log("APPLICATIONS TABLE COLUMNS:");
+    console.table(appCols);
 
-    const [analysesCols] = await pool.query("DESCRIBE analyses");
-    console.log("ANALYSES TABLE COLUMNS:");
-    console.table(analysesCols);
+    const [interviewCols] = await pool.query("DESCRIBE interviews");
+    console.log("INTERVIEWS TABLE COLUMNS:");
+    console.table(interviewCols);
   } catch (err) {
     console.error(err);
   } finally {

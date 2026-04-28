@@ -1,0 +1,573 @@
+[
+  {
+    "id": "1777146051390",
+    "userId": "1777144556281",
+    "filename": "Bhoomika_Resume.pdf",
+    "uploadedAt": "2026-04-25T14:10:51.000Z",
+    "mimetype": null,
+    "fileData": null,
+    "resumeText": null,
+    "parsed_skills": null,
+    "parsed_education": null,
+    "parsed_experience": null,
+    "file_path": null,
+    "current_location": null,
+    "notice_period": null,
+    "total_experience": null,
+    "current_salary": null
+  },
+  {
+    "id": "1777189598024",
+    "userId": "1777189526178",
+    "filename": "Bhoomika_Resume.pdf",
+    "uploadedAt": "2026-04-26T02:16:38.000Z",
+    "mimetype": null,
+    "fileData": null,
+    "resumeText": null,
+    "parsed_skills": null,
+    "parsed_education": null,
+    "parsed_experience": null,
+    "file_path": null,
+    "current_location": null,
+    "notice_period": null,
+    "total_experience": null,
+    "current_salary": null
+  },
+  {
+    "id": "1777190209762",
+    "userId": "1777190100646",
+    "filename": "Subhodip.pdf",
+    "uploadedAt": "2026-04-26T02:26:49.000Z",
+    "mimetype": null,
+    "fileData": null,
+    "resumeText": null,
+    "parsed_skills": null,
+    "parsed_education": null,
+    "parsed_experience": null,
+    "file_path": null,
+    "current_location": null,
+    "notice_period": null,
+    "total_experience": null,
+    "current_salary": null
+  },
+  {
+    "id": "1777193403071",
+    "userId": "1777190100646",
+    "filename": "Resume-1.docx",
+    "uploadedAt": "2026-04-26T03:20:03.000Z",
+    "mimetype": null,
+    "fileData": null,
+    "resumeText": null,
+    "parsed_skills": null,
+    "parsed_education": null,
+    "parsed_experience": null,
+    "file_path": null,
+    "current_location": null,
+    "notice_period": null,
+    "total_experience": null,
+    "current_salary": null
+  },
+  {
+    "id": "1777193675642",
+    "userId": "1777190100646",
+    "filename": "Resume-1.pdf",
+    "uploadedAt": "2026-04-26T03:24:35.000Z",
+    "mimetype": null,
+    "fileData": null,
+    "resumeText": null,
+    "parsed_skills": null,
+    "parsed_education": null,
+    "parsed_experience": null,
+    "file_path": null,
+    "current_location": null,
+    "notice_period": null,
+    "total_experience": null,
+    "current_salary": null
+  },
+  {
+    "id": "1777194569366",
+    "userId": "1777190100646",
+    "filename": "Resume-1.pdf",
+    "uploadedAt": "2026-04-26T03:39:29.000Z",
+    "mimetype": null,
+    "fileData": null,
+    "resumeText": null,
+    "parsed_skills": [
+      "Core Java",
+      "Go",
+      "C++",
+      "C#",
+      "Spring Boot",
+      "Spring MVC",
+      "Spring JPA",
+      "Hibernate",
+      "REST APIs",
+      "Microservices",
+      "Event-Driven Architecture",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Apache Kafka",
+      "ActiveMQ",
+      "Azure Functions",
+      "Azure Web PubSub",
+      "Docker",
+      "Azure DevOps",
+      "CI/CD",
+      "Git",
+      "Angular",
+      "TypeScript",
+      "PrimeNG",
+      "Duende BFF"
+    ],
+    "parsed_education": [
+      {
+        "year": "2023",
+        "degree": null,
+        "institution": "Birla Institute of Technology, Mesra"
+      }
+    ],
+    "parsed_experience": [
+      {
+        "title": "Software Developer-II",
+        "company": "Fastenal",
+        "duration": "July 2023 – Present"
+      }
+    ],
+    "file_path": "uploads\\1777194539987-349260181-Resume-1.pdf",
+    "current_location": "Bangalore",
+    "notice_period": "",
+    "total_experience": "10 months (professional)",
+    "current_salary": ""
+  },
+  {
+    "id": "1777195399210",
+    "userId": "1777190100646",
+    "filename": "Subhodip (1).pdf",
+    "uploadedAt": "2026-04-26T03:53:19.000Z",
+    "mimetype": null,
+    "fileData": null,
+    "resumeText": null,
+    "parsed_skills": [
+      "Java",
+      "Go",
+      "C++",
+      "C#",
+      "Microservices",
+      "Spring Boot",
+      "Spring MVC",
+      "Spring JPA",
+      "Hibernate",
+      "REST APIs",
+      "Event-Driven Architecture",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Apache Kafka",
+      "ActiveMQ",
+      "Azure Functions",
+      "Azure Web PubSub",
+      "Docker",
+      "Azure DevOps",
+      "CI/CD",
+      "Git",
+      "Angular",
+      "TypeScript",
+      "PrimeNG"
+    ],
+    "parsed_education": [
+      {
+        "year": "2023",
+        "degree": "Bachelor of Technology",
+        "institution": "Birla Institute of Technology, Mesra"
+      }
+    ],
+    "parsed_experience": [
+      {
+        "title": "Software Developer-II",
+        "company": "Fastenal",
+        "duration": "July 2023 – Present"
+      }
+    ],
+    "file_path": "uploads\\1777195377382-796149465-Subhodip (1).pdf",
+    "current_location": "Bangalore",
+    "notice_period": "Not Specified",
+    "total_experience": "3 years",
+    "current_salary": "Not Specified"
+  },
+  {
+    "id": "1777320639685",
+    "userId": "1777317616072",
+    "filename": "Subhodip (1).pdf",
+    "uploadedAt": "2026-04-27T14:40:39.000Z",
+    "mimetype": null,
+    "fileData": null,
+    "resumeText": null,
+    "parsed_skills": [
+      "Java",
+      "Go",
+      "C++",
+      "C#",
+      "Spring Boot",
+      "MVC",
+      "JPA",
+      "Hibernate",
+      "REST APIs",
+      "Microservices",
+      "Event-Driven Architecture",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Apache Kafka",
+      "ActiveMQ",
+      "Azure",
+      "Azure Functions",
+      "Azure Web PubSub",
+      "Docker",
+      "Azure DevOps",
+      "CI/CD",
+      "Git",
+      "Angular",
+      "TypeScript",
+      "PrimeNG"
+    ],
+    "parsed_education": [
+      {
+        "year": "2019 – 2023",
+        "degree": "Not explicitly stated (likely B.E./B.Tech)",
+        "institution": "Birla Institute of Technology, Mesra"
+      }
+    ],
+    "parsed_experience": [
+      {
+        "title": "Software Developer-II",
+        "company": "Fastenal",
+        "duration": "July 2023 – Present"
+      }
+    ],
+    "file_path": "C:\\Users\\bhoom\\Desktop\\ATS-----resume-checker\\uploads\\1777320600602-Subhodip (1).pdf",
+    "current_location": "Bangalore",
+    "notice_period": "Not specified",
+    "total_experience": "3 years (per summary)",
+    "current_salary": "Not specified"
+  },
+  {
+    "id": "1777320698354",
+    "userId": "1777317616072",
+    "filename": "Subhodip (1).pdf",
+    "uploadedAt": "2026-04-27T14:41:38.000Z",
+    "mimetype": null,
+    "fileData": null,
+    "resumeText": null,
+    "parsed_skills": [
+      "Java",
+      "Go",
+      "C++",
+      "C#",
+      "Spring Boot",
+      "REST APIs",
+      "Microservices",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Apache Kafka",
+      "Azure",
+      "Docker",
+      "Azure DevOps",
+      "Angular",
+      "TypeScript",
+      "PrimeNG"
+    ],
+    "parsed_education": [
+      {
+        "year": "2023",
+        "degree": "Not specified (likely B.Tech/BE)",
+        "institution": "Birla Institute of Technology, Mesra"
+      }
+    ],
+    "parsed_experience": [
+      {
+        "title": "Software Developer-II",
+        "company": "Fastenal",
+        "duration": "July 2023 – Present"
+      }
+    ],
+    "file_path": "C:\\Users\\bhoom\\Desktop\\ATS-----resume-checker\\uploads\\1777320684266-Subhodip (1).pdf",
+    "current_location": "Bangalore",
+    "notice_period": "Not mentioned",
+    "total_experience": "3 years",
+    "current_salary": "Not mentioned"
+  },
+  {
+    "id": "1777322700844",
+    "userId": "1777322142287",
+    "filename": "Subhodip (1).pdf",
+    "uploadedAt": "2026-04-27T15:15:00.000Z",
+    "mimetype": null,
+    "fileData": null,
+    "resumeText": null,
+    "parsed_skills": [
+      "Java",
+      "Go",
+      "C++",
+      "C#",
+      "Microservices",
+      "Spring Boot",
+      "MVC",
+      "JPA",
+      "Hibernate",
+      "REST APIs",
+      "Event-Driven Architecture",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Apache Kafka",
+      "ActiveMQ",
+      "Azure Functions",
+      "Azure Web PubSub",
+      "Docker",
+      "Azure DevOps",
+      "CI/CD",
+      "Git",
+      "Angular",
+      "TypeScript",
+      "PrimeNG"
+    ],
+    "parsed_education": [
+      {
+        "year": "2023",
+        "degree": "Not Specified",
+        "institution": "Birla Institute of Technology, Mesra"
+      }
+    ],
+    "parsed_experience": [
+      {
+        "title": "Software Developer-II",
+        "company": "Fastenal",
+        "duration": "July 2023 – Present"
+      }
+    ],
+    "file_path": "C:\\Users\\bhoom\\Desktop\\ATS-----resume-checker\\uploads\\1777322671566-Subhodip (1).pdf",
+    "current_location": "Bangalore",
+    "notice_period": "Not specified",
+    "total_experience": "3 years",
+    "current_salary": "Not specified"
+  },
+  {
+    "id": "1777322953990",
+    "userId": "1777322142287",
+    "filename": "Subhodip (1).pdf",
+    "uploadedAt": "2026-04-27T15:19:13.000Z",
+    "mimetype": null,
+    "fileData": null,
+    "resumeText": null,
+    "parsed_skills": [
+      "Java",
+      "Go",
+      "C++",
+      "C#",
+      "Micro services",
+      "Spring Boot (MVC)",
+      "Spring Boot (JPA)",
+      "Spring Boot (Hibernate)",
+      "REST APIs",
+      "Event-Driven Architecture",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Apache Kafka",
+      "ActiveMQ",
+      "Azure (Functions)",
+      "Azure (Web PubSub)",
+      "Docker",
+      "Azure DevOps (CI/CD)",
+      "Git",
+      "Angular",
+      "TypeScript",
+      "PrimeNG"
+    ],
+    "parsed_education": [
+      {
+        "year": "2023",
+        "degree": "Bachelor of Technology (implied)",
+        "institution": "Birla Institute of Technology, Mesra"
+      }
+    ],
+    "parsed_experience": [
+      {
+        "title": "Software Developer-II",
+        "company": "Fastenal",
+        "duration": "July 2023 – Present"
+      }
+    ],
+    "file_path": "C:\\Users\\bhoom\\Desktop\\ATS-----resume-checker\\uploads\\1777322934480-Subhodip (1).pdf",
+    "current_location": "Bangalore",
+    "notice_period": "N/A",
+    "total_experience": "1 year 4 months (based on listed experience, discrepancy with summary '3 years')",
+    "current_salary": "N/A"
+  },
+  {
+    "id": "1777323334045",
+    "userId": "1777323292832",
+    "filename": "Subhodip (1).pdf",
+    "uploadedAt": "2026-04-27T15:25:34.000Z",
+    "mimetype": null,
+    "fileData": null,
+    "resumeText": null,
+    "parsed_skills": [
+      "Java",
+      "Go",
+      "C++",
+      "C#",
+      "Microservices",
+      "Spring Boot",
+      "MVC",
+      "JPA",
+      "Hibernate",
+      "REST APIs",
+      "Event-Driven Architecture",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Apache Kafka",
+      "ActiveMQ",
+      "Azure Functions",
+      "Azure Web PubSub",
+      "Docker",
+      "Azure DevOps",
+      "CI/CD",
+      "Git",
+      "Angular",
+      "TypeScript",
+      "PrimeNG",
+      "Duende BFF"
+    ],
+    "parsed_education": [
+      {
+        "year": "2023",
+        "degree": "Not Specified",
+        "institution": "Birla Institute of Technology, Mesra"
+      }
+    ],
+    "parsed_experience": [
+      {
+        "title": "Software Developer-II",
+        "company": "Fastenal",
+        "duration": "July 2023 – Present"
+      }
+    ],
+    "file_path": "C:\\Users\\bhoom\\Desktop\\ATS-----resume-checker\\uploads\\1777323308820-Subhodip (1).pdf",
+    "current_location": "Bangalore",
+    "notice_period": "Not Specified",
+    "total_experience": "1 year 2 months",
+    "current_salary": "Not Specified"
+  },
+  {
+    "id": "1777323813798",
+    "userId": "1777144556281",
+    "filename": "Subhodip (1).pdf",
+    "uploadedAt": "2026-04-27T15:33:33.000Z",
+    "mimetype": null,
+    "fileData": null,
+    "resumeText": null,
+    "parsed_skills": [
+      "Java",
+      "Go",
+      "C++",
+      "C#",
+      "Microservices",
+      "Spring Boot",
+      "Spring MVC",
+      "Spring JPA",
+      "Hibernate",
+      "REST APIs",
+      "Event-Driven Architecture",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Apache Kafka",
+      "ActiveMQ",
+      "Azure Functions",
+      "Azure Web PubSub",
+      "Docker",
+      "Azure DevOps",
+      "CI/CD",
+      "Git",
+      "Angular",
+      "TypeScript",
+      "PrimeNG",
+      "Duende BFF"
+    ],
+    "parsed_education": [
+      {
+        "year": "2023",
+        "degree": "Not specified (presumably Bachelor's)",
+        "institution": "Birla Institute of Technology, Mesra"
+      }
+    ],
+    "parsed_experience": [
+      {
+        "title": "Software Developer-II",
+        "company": "Fastenal",
+        "duration": "July 2023 – Present"
+      }
+    ],
+    "file_path": "C:\\Users\\bhoom\\Desktop\\ATS-----resume-checker\\uploads\\1777323786322-Subhodip (1).pdf",
+    "current_location": "Bangalore",
+    "notice_period": "Not specified",
+    "total_experience": "11 months",
+    "current_salary": "Not specified"
+  },
+  {
+    "id": "1777327419094",
+    "userId": "1777144556281",
+    "filename": "Subhodip (1).pdf",
+    "uploadedAt": "2026-04-27T16:33:39.000Z",
+    "mimetype": null,
+    "fileData": null,
+    "resumeText": null,
+    "parsed_skills": [
+      "Java",
+      "Go",
+      "C++",
+      "C#",
+      "Microservices",
+      "Spring Boot (MVC, JPA, Hibernate)",
+      "REST APIs",
+      "Event-Driven Architecture",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Apache Kafka",
+      "ActiveMQ",
+      "Azure Functions",
+      "Azure Web PubSub",
+      "Docker",
+      "Azure DevOps (CI/CD)",
+      "Git",
+      "Angular",
+      "TypeScript",
+      "PrimeNG",
+      "Duende BFF"
+    ],
+    "parsed_education": [
+      {
+        "year": "2023",
+        "degree": "Missing Degree Name",
+        "institution": "Birla Institute of Technology, Mesra"
+      }
+    ],
+    "parsed_experience": [
+      {
+        "title": "Software Developer-II",
+        "company": "Fastenal",
+        "duration": "July 2023 – Present"
+      }
+    ],
+    "file_path": "C:\\Users\\bhoom\\Desktop\\ATS-----resume-checker\\uploads\\1777327392250-Subhodip (1).pdf",
+    "current_location": "Bangalore",
+    "notice_period": "Not specified",
+    "total_experience": "1 year (based on listed professional employment; 3 years claimed in summary requires clarification)",
+    "current_salary": "Not specified"
+  }
+]

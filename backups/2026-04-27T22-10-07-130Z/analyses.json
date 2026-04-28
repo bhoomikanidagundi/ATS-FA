@@ -1,0 +1,881 @@
+[
+  {
+    "id": "1777146051649",
+    "resumeId": "1777146051390",
+    "userId": "1777144556281",
+    "result": {
+      "score": 60,
+      "summary": "This resume, from a BCA student, presents foundational programming skills including HTML, CSS, and JavaScript. While it indicates potential for a frontend role with a 'web-based' project, it currently lacks the specific depth, framework knowledge, and detailed project descriptions typically sought for a dedicated 'frontend developer' position. Several sections are generic or unnecessary, and a stronger focus on frontend-specific contributions is needed to better align with the job description.",
+      "suggestions": [
+        {
+          "tip": "Replace the 'Career Objective' with a 'Professional Summary' that concisely highlights your frontend development skills, relevant projects, and career aspirations. Tailor it specifically to an entry-level frontend role.",
+          "example": "Motivated BCA student with foundational skills in HTML, CSS, and JavaScript, seeking an entry-level Frontend Developer role. Eager to apply web development knowledge gained through projects like a web-based Applicant Tracking System, contributing to visually appealing and user-friendly web applications.",
+          "section": "Career Objective"
+        },
+        {
+          "tip": "Expand your technical skills section to include more specialized frontend technologies, libraries, and tools. This demonstrates deeper commitment to frontend development. Even basic familiarity or ongoing learning should be mentioned.",
+          "example": "Frontend: HTML5, CSS3, JavaScript (ES6+), (e.g., React.js/Vue.js/Angular - if learned), Responsive Design, UI/UX Principles (basic understanding)\nTools & Version Control: Git, VS Code, npm/Yarn, Webpack (basic familiarity)",
+          "section": "Technical Skills"
+        },
+        {
+          "tip": "Elaborate significantly on your projects, focusing on your specific frontend contributions, the technologies used, and the impact of your work. Quantify achievements where possible and clearly state frontend frameworks/libraries if used.",
+          "example": "Applicant Tracking System (Web-based): Designed and implemented the responsive user interface using HTML5, CSS3, and JavaScript, enabling efficient resume upload, candidate tracking, and interactive ranking features. Utilized RESTful APIs to dynamically display and manage candidate data, improving recruitment workflow efficiency by X%.",
+          "section": "Projects"
+        },
+        {
+          "tip": "Remove the 'Strengths' and 'Declaration' sections. Soft skills (problem-solving, teamwork) should be demonstrated through project descriptions or a summary, rather than listed generically. The declaration is unnecessary on a modern resume.",
+          "example": "Integrate 'Problem-solving' into project descriptions by discussing challenges overcome. For example: 'Resolved cross-browser compatibility issues in the ATS UI, ensuring a consistent user experience.'",
+          "section": "Strengths & Declaration"
+        },
+        {
+          "tip": "If applicable, add relevant coursework or academic projects related to web development or UI/UX within your education section to further demonstrate your interest and foundational knowledge.",
+          "example": "BCA, XYZ College, Karnataka (2023–2026)\n    *   Relevant Coursework: Web Technologies, Data Structures, Database Management Systems",
+          "section": "Education"
+        }
+      ],
+      "keywordMatch": 45,
+      "bulletRewrites": [
+        {
+          "original": "Applicant Tracking System: Built a web-based ATS with resume upload, candidate tracking, and ranking features.",
+          "rewritten": "Designed and implemented the responsive user interface for a web-based Applicant Tracking System using HTML, CSS, and JavaScript. Developed features for resume upload, real-time candidate tracking, and interactive ranking, enhancing user experience and data visualization."
+        },
+        {
+          "original": "Student Management System: Developed using Java and MySQL to manage student records.",
+          "rewritten": "Developed the backend and database schema for a Student Management System using Java and MySQL, ensuring efficient storage and retrieval of student records. (If a frontend component was built, add: 'Implemented user interfaces for student data management using HTML, CSS, and JavaScript.')"
+        }
+      ],
+      "skillRelevance": 55,
+      "missingKeywords": [
+        "React",
+        "Angular",
+        "Vue.js",
+        "Responsive Design",
+        "UI/UX",
+        "RESTful APIs (from frontend perspective)",
+        "Webpack",
+        "Babel",
+        "npm",
+        "Yarn",
+        "SASS/LESS",
+        "Styled Components",
+        "Testing (Jest, React Testing Library)",
+        "Accessibility",
+        "Performance Optimization",
+        "Git workflows (e.g., branching, pull requests)",
+        "Modern JavaScript Libraries"
+      ],
+      "formattingIssues": [],
+      "sectionCompleteness": [
+        "Professional Summary (instead of Career Objective)",
+        "Work Experience",
+        "Awards/Certifications",
+        "Detailed Project Descriptions (specific technologies, impact, frontend contributions)"
+      ]
+    },
+    "createdAt": "2026-04-25T14:10:51.000Z"
+  },
+  {
+    "id": "1777189598256",
+    "resumeId": "1777189598024",
+    "userId": "1777189526178",
+    "result": {
+      "score": 70,
+      "summary": "This resume provides a good foundation for an entry-level software developer, showcasing relevant technical skills and two practical projects. However, it can be significantly enhanced by expanding project descriptions with more specific details, quantifiable outcomes, and explicitly mentioning all utilized technologies. Replacing the 'Career Objective' with a 'Professional Summary' and removing the outdated 'Declaration' would improve its overall professionalism. Additionally, incorporating exposure to modern frameworks, cloud platforms, and testing practices would strengthen its appeal for competitive roles by addressing key missing keywords.",
+      "suggestions": [
+        {
+          "tip": "Replace the 'Career Objective' with a 'Professional Summary' or 'About Me' section. This allows you to highlight your key skills, experiences, and career aspirations more dynamically and impactfully.",
+          "example": "Highly motivated BCA student with foundational knowledge in Java, Python, and web technologies, coupled with practical experience in building full-stack applications. Seeking an entry-level software developer role to leverage problem-solving skills and contribute to innovative projects while continuously learning and growing within a dynamic team.",
+          "section": "Career Objective"
+        },
+        {
+          "tip": "Enhance project descriptions by providing more specific details, quantifying achievements, and explicitly listing the technologies used for each component (frontend, backend, database). Focus on the 'what, how, and impact'.",
+          "example": "Applicant Tracking System: Engineered a web-based Applicant Tracking System (ATS) using [Python/Java, HTML, CSS, JavaScript, MySQL] to streamline candidate management. Implemented features for secure resume uploads, efficient candidate tracking, and a weighted ranking algorithm, which improved hiring workflow efficiency by an estimated X%.",
+          "section": "Projects"
+        },
+        {
+          "tip": "Instead of a separate 'Strengths' section, integrate these soft skills into your project descriptions or a 'Professional Summary' by providing concrete examples of how you demonstrated them.",
+          "example": "Collaborated effectively in a team environment to develop the Applicant Tracking System, ensuring timely delivery and robust feature implementation.",
+          "section": "Strengths"
+        },
+        {
+          "tip": "Remove the 'Declaration' section. It is outdated and no longer standard practice on modern resumes.",
+          "example": "N/A (simply remove the section)",
+          "section": "Declaration"
+        },
+        {
+          "tip": "Include a link to your GitHub profile or a personal portfolio website. This allows recruiters to view your code, understand your contributions, and see more detailed project documentation.",
+          "example": "GitHub: github.com/yourprofile | Portfolio: yourportfolio.com",
+          "section": "General"
+        }
+      ],
+      "keywordMatch": 82,
+      "bulletRewrites": [
+        {
+          "original": "Applicant Tracking System: Built a web-based ATS with resume upload, candidate tracking, and ranking features.",
+          "rewritten": "Developed a full-stack web-based Applicant Tracking System (ATS) leveraging HTML, CSS, JavaScript for the frontend and [Java/Python] with MySQL for the backend. Implemented core features including secure resume uploads, comprehensive candidate tracking, and an intelligent ranking algorithm to streamline recruitment processes."
+        },
+        {
+          "original": "Student Management System: Developed using Java and MySQL to manage student records.",
+          "rewritten": "Designed and implemented a robust Student Management System using Java and MySQL, demonstrating strong OOP principles. Facilitated efficient record keeping, course registration, and performance tracking capabilities for student data, enhancing administrative operations."
+        }
+      ],
+      "skillRelevance": 90,
+      "missingKeywords": [
+        "Spring Boot (for Java backend)",
+        "Django/Flask (for Python backend)",
+        "RESTful APIs (development/consumption)",
+        "Cloud Platforms (e.g., AWS, Azure, GCP - even basic familiarity)",
+        "Unit Testing Frameworks (e.g., JUnit, Pytest)",
+        "Version Control Best Practices (e.g., branching strategies, pull requests beyond just 'Git')",
+        "Frontend Frameworks (e.g., React, Angular, Vue.js if web-focused)",
+        "Data Structures & Algorithms (mentioning problem-solving platforms like LeetCode)"
+      ],
+      "formattingIssues": [],
+      "skillSuggestions": [
+        "Add skills like Spring Boot or Django/Flask to demonstrate proficiency in web application frameworks.",
+        "Include knowledge of cloud platforms such as AWS or Azure, even if basic, to show understanding of modern deployment environments.",
+        "Consider adding exposure to testing frameworks like JUnit or Pytest to highlight a focus on robust software development.",
+        "Familiarity with developing and consuming RESTful APIs is crucial; mention specific experience if you have it.",
+        "If you have experience with specific frontend frameworks like React or Angular, include them to bolster your web development profile."
+      ],
+      "sectionCompleteness": [
+        "Missing a 'Professional Summary' or 'About Me' section (instead of 'Career Objective').",
+        "Missing 'Internships' or 'Work Experience' section (if applicable).",
+        "Missing 'Certifications' section.",
+        "Missing 'Awards and Achievements' section.",
+        "The 'Strengths' section is generic and less impactful without context.",
+        "The 'Declaration' section is outdated and unnecessary for modern resumes."
+      ]
+    },
+    "createdAt": "2026-04-26T02:16:38.000Z"
+  },
+  {
+    "id": "1777190210007",
+    "resumeId": "1777190209762",
+    "userId": "1777190100646",
+    "result": {
+      "score": 78,
+      "summary": "This resume showcases a highly skilled Java backend engineer with strong expertise in microservices, Spring Boot, and Azure. The candidate demonstrates significant achievements in designing scalable, reliable, and performant systems, including architecture, optimization, and CI/CD, aligning very well with the technical requirements of a Senior Java Backend Developer. While the technical qualifications are excellent, the stated '3 years of experience' appears inconsistent with the graduation date (May 2023), which may require clarification for a 'Senior' position. Addressing this experience duration discrepancy and explicitly mentioning desired Java versions will further strengthen the application.",
+      "suggestions": [
+        {
+          "tip": "The '3 years of experience' in the summary appears inconsistent with your graduation date (May 2023), which suggests approximately 1 year of post-graduation professional experience. For a 'Senior' role, this discrepancy can be a red flag. Clarify if this includes significant internship or pre-graduation professional work, or revise the number to accurately reflect post-graduation experience.",
+          "example": "SDE-II Backend Engineer with [X] years of post-graduation experience and 3 years of total engineering exposure (including internships), specializing in Java...",
+          "section": "Professional Summary"
+        },
+        {
+          "tip": "While showing versatility, the bullet about developing a responsive frontend might be less impactful for a purely 'Senior Java Backend Developer' role. Consider rephrasing to emphasize backend API integration aspects more strongly or prioritize other backend-focused achievements if space is limited.",
+          "example": "Collaborated with frontend teams to develop a responsive UI using Angular, focusing on seamless backend API integration for efficient product management functionalities.",
+          "section": "Experience"
+        },
+        {
+          "tip": "Under 'Languages', explicitly state the specific Java versions you are proficient with, especially if it includes Java 11 or newer, to directly match the job description's preference.",
+          "example": "Languages: Java (17/11), Go, C++, C#",
+          "section": "Technical Skills"
+        }
+      ],
+      "keywordMatch": 90,
+      "bulletRewrites": [
+        {
+          "original": "Architected and implemented a distributed Mass Load system capable of processing up to 10M SKUs daily, decomposing the workflow into independently scalable microservices for improved fault isolation and resilience, increasing overall throughput by 70%.",
+          "rewritten": "Architected and implemented a distributed Mass Load system, leveraging microservices for enhanced fault isolation and resilience, to process up to 10M SKUs daily and achieve a 70% increase in overall throughput."
+        },
+        {
+          "original": "Strengthened application security by implementing cookie-based authentication using Duende BFF and improving overall code reliability through comprehensive unit and integration testing (40% coverage increase).",
+          "rewritten": "Enhanced application security through cookie-based authentication (Duende BFF) and boosted code reliability by achieving a 40% increase in unit and integration test coverage."
+        }
+      ],
+      "skillRelevance": 95,
+      "missingKeywords": [
+        "Java 11",
+        "MySQL",
+        "SQL Server",
+        "Performance tuning",
+        "Cross-functional collaboration (with front-end, DevOps, QA teams)"
+      ],
+      "formattingIssues": [],
+      "skillSuggestions": [
+        "Specify the Java version used, e.g., 'Java 11+', to align with preferences.",
+        "Consider adding experience with 'MySQL' or 'SQL Server' if applicable, even if PostgreSQL is your primary.",
+        "Explicitly mention 'performance tuning' as a skill, perhaps through an achievement bullet.",
+        "Highlight 'cross-functional collaboration' more explicitly in your experience descriptions, especially regarding work with front-end, DevOps, and QA."
+      ],
+      "sectionCompleteness": []
+    },
+    "createdAt": "2026-04-26T02:26:50.000Z"
+  },
+  {
+    "id": "1777193403333",
+    "resumeId": "1777193403071",
+    "userId": "1777190100646",
+    "result": {
+      "score": 0,
+      "summary": "The resume text provided is unreadable and appears to be raw binary data. As such, no content could be extracted or analyzed, resulting in a score of 0 for all criteria. The candidate must re-submit their resume in a readable format (e.g., PDF, plain text) for any meaningful evaluation to occur.",
+      "suggestions": [
+        {
+          "tip": "The resume text provided is unreadable. Please ensure the resume is converted to plain text correctly or provided in a standard, readable document format (like PDF or DOCX that can be correctly parsed) before submission. No content could be extracted or analyzed from the current input.",
+          "example": "N/A - Re-submit resume in a readable format.",
+          "section": "Overall Resume"
+        }
+      ],
+      "keywordMatch": 0,
+      "bulletRewrites": [],
+      "skillRelevance": 0,
+      "missingKeywords": [
+        "Core Java (Java 8+)",
+        "Spring Boot",
+        "Spring MVC",
+        "Spring Data JPA",
+        "RESTful API design",
+        "Microservices architecture",
+        "SQL",
+        "relational databases",
+        "PostgreSQL",
+        "MySQL",
+        "SQL Server",
+        "Git",
+        "Maven",
+        "Gradle",
+        "CI/CD tools",
+        "Java 11 (or newer)",
+        "backend services",
+        "high-performance backend systems",
+        "code reviews",
+        "unit testing",
+        "performance tuning"
+      ],
+      "formattingIssues": [
+        "The provided resume text appears to be corrupted or in an unreadable binary format (e.g., a raw DOCX file content rather than extracted plain text). No content could be parsed."
+      ],
+      "skillSuggestions": [
+        "To improve match, please submit a resume in a readable format (e.g., plain text, PDF, or a properly converted DOCX to text) so that skills like Core Java, Spring Boot, Microservices, and database experience can be evaluated.",
+        "Once the resume is readable, ensure explicit mention of experience with specific tools and technologies like Git, Maven/Gradle, and CI/CD pipelines."
+      ],
+      "sectionCompleteness": [
+        "All sections (Contact Information, Summary/Objective, Experience, Education, Skills, etc.) are missing as the document could not be parsed."
+      ]
+    },
+    "createdAt": "2026-04-26T03:20:03.000Z"
+  },
+  {
+    "id": "1777193675901",
+    "resumeId": "1777193675642",
+    "userId": "1777190100646",
+    "result": {
+      "score": 88,
+      "summary": "The resume presents a highly qualified candidate for a Senior Java Backend Developer role, demonstrating strong experience in Java, Spring Boot, and Microservices architecture with quantifiable achievements in scalability, performance, and reliability. Key strengths include extensive experience with Azure, distributed systems, and modern development practices like CI/CD and event-driven architecture. While there's excellent alignment, minor improvements can be made by explicitly mentioning newer Java versions, specific collaboration efforts, code review participation, and explicit SQL query optimization skills to capture all keywords from the job description. The education section should also be completed with degree and major details.",
+      "suggestions": [
+        {
+          "tip": "Consider adding keywords like 'collaborative' and 'best practices' to align even closer with the job description's soft skill requirements.",
+          "example": "SDE-II Backend Engineer with 3 years of experience designing and building scalable, distributed systems using Java, Spring Boot, and Azure. Experienced in microservices architecture, event-driven systems, and building reliable production-grade backend applications, consistently applying best practices in collaboration with cross-functional teams.",
+          "section": "Professional Summary"
+        },
+        {
+          "tip": "While showing full-stack capability is good, for a Senior Java Backend Developer role, ensure frontend work is framed to highlight backend integration or API development contributions more strongly.",
+          "example": "Seamlessly integrated robust backend APIs with a newly developed Angular frontend, enabling efficient product search, viewing, and maintenance functionalities.",
+          "section": "Experience"
+        },
+        {
+          "tip": "To provide complete information, ensure your degree and major are clearly stated.",
+          "example": "Birla Institute of Technology, Mesra | Bachelor of Technology in Computer Science Engineering | July 2019 – May 2023",
+          "section": "Education"
+        },
+        {
+          "tip": "Add specific Java versions (e.g., Java 11+, Java 17) and explicitly list 'Performance Tuning' and 'SQL Query Optimization' to fully align with the job description.",
+          "example": "Languages: Java (17+), Go, C++, C#",
+          "section": "Technical Skills"
+        }
+      ],
+      "keywordMatch": 85,
+      "bulletRewrites": [
+        {
+          "original": "Developed a responsive frontend using Angular, TypeScript, and PrimeNG, enabling efficient product search, viewing, and maintenance with seamless end-to-end API integration.",
+          "rewritten": "Designed and integrated robust backend APIs to support a responsive Angular frontend, enabling efficient product search, viewing, and maintenance functionalities."
+        },
+        {
+          "original": "Strengthened application security by implementing cookie-based authentication using Duende BFF and improving overall code reliability through comprehensive unit and integration testing (40% coverage increase).",
+          "rewritten": "Enhanced application security via cookie-based authentication (Duende BFF) and significantly improved code reliability and quality through comprehensive unit and integration testing, increasing coverage by 40%."
+        }
+      ],
+      "skillRelevance": 95,
+      "missingKeywords": [
+        "Java 11 or newer (explicit mention)",
+        "efficient SQL queries",
+        "MySQL",
+        "SQL Server",
+        "code reviews (explicit participation)",
+        "performance tuning (as a distinct skill/responsibility)",
+        "collaborate with front-end developers, DevOps, and QA teams",
+        "best practices"
+      ],
+      "formattingIssues": [],
+      "skillSuggestions": [
+        "Add skills like 'Java 17/21' or 'Modern Java Features' to explicitly state proficiency with newer Java versions.",
+        "Include 'SQL Query Optimization' or 'Advanced SQL' under Databases & Others to highlight expertise in efficient database interaction.",
+        "Mention 'Code Review Participation' or 'Collaborative Development' within your experience bullet points or professional summary to show teamwork.",
+        "Add 'Performance Tuning & Optimization' explicitly to your Technical Skills, emphasizing your ability to ensure high-performance systems.",
+        "Strengthen your summary or experience points to explicitly mention 'Cross-functional Collaboration with front-end, DevOps, and QA teams' to match the job's collaborative nature.",
+        "Incorporate 'Adherence to and implementation of best practices in code quality, architecture, and security' into your summary or experience."
+      ],
+      "sectionCompleteness": [
+        "Education: Degree and major are missing."
+      ]
+    },
+    "createdAt": "2026-04-26T03:24:35.000Z"
+  },
+  {
+    "id": "1777194569617",
+    "resumeId": "1777194569366",
+    "userId": "1777190100646",
+    "result": {
+      "score": 65,
+      "summary": "Bhoomika demonstrates strong technical proficiency as a Backend Engineer with expertise in Java, Spring Boot, Microservices, and Azure. The resume highlights significant achievements in building scalable, high-performance, and secure distributed systems, backed by quantifiable results. While the technical skillset aligns remarkably well with the Senior Java Backend Developer role, the listed professional experience duration of 10 months appears insufficient for a typical 'Senior' designation, requiring clarification on the '3 years of experience' mentioned in the summary. The candidate showcases excellent problem-solving skills and a solid foundation in modern backend development practices.",
+      "suggestions": [
+        {
+          "tip": "Clarify the '3 years of experience'. If it includes academic projects or internships, explicitly state that to align with the listed professional experience of 10 months. This is crucial for roles with specific experience requirements.",
+          "example": "SDE-II Backend Engineer with 10 months of professional experience and 3 years overall experience including significant academic projects, specializing in designing and building scalable, distributed systems...",
+          "section": "Professional Summary"
+        },
+        {
+          "tip": "For a Senior role, emphasize leadership, mentorship, and the 'why' behind architectural decisions. Detail the challenges faced and how your solutions directly addressed them, showcasing senior-level problem-solving and strategic thinking.",
+          "example": "Led the architectural design and implementation of a distributed Mass Load system to address throughput limitations, successfully decomposing the workflow into independently scalable microservices to enhance fault isolation and resilience, resulting in a 70% increase in overall throughput.",
+          "section": "Experience"
+        },
+        {
+          "tip": "Always include your degree and major (e.g., Bachelor of Technology in Computer Science) to provide complete context.",
+          "example": "Birla Institute of Technology, Mesra - Bachelor of Technology in Computer Science",
+          "section": "Education"
+        },
+        {
+          "tip": "Be specific about Java versions if you are working with newer ones (e.g., Java 11, Java 17) to match job description requirements.",
+          "example": "Languages: Java (11/17), Go, C++, C#",
+          "section": "Technical Skills"
+        }
+      ],
+      "keywordMatch": 92,
+      "bulletRewrites": [
+        {
+          "original": "Architected and implemented a distributed Mass Load system capable of processing up to 10M SKUs daily, decomposing the workflow into independently scalable microservices for improved fault isolation and resilience, increasing overall throughput by 70%.",
+          "rewritten": "Architected and implemented a fault-tolerant, distributed Mass Load system processing 10M+ SKUs daily, leveraging microservices architecture to enhance fault isolation, resilience, and achieve a 70% increase in overall throughput."
+        },
+        {
+          "original": "Optimized item creation and persistence workflows handling up to 10M records daily across multiple storage systems and cross-team integrations, achieving 99.9% data reliability and consistency.",
+          "rewritten": "Optimized high-volume item creation and persistence workflows, managing 10M+ daily records across diverse storage systems and cross-team integrations, resulting in 99.9% data reliability and consistency."
+        },
+        {
+          "original": "Strengthened application security by implementing cookie-based authentication using Duende BFF and improving overall code reliability through comprehensive unit and integration testing (40% coverage increase).",
+          "rewritten": "Enhanced application security through cookie-based authentication (Duende BFF) and significantly improved code reliability by increasing unit and integration test coverage by 40%."
+        }
+      ],
+      "skillRelevance": 95,
+      "missingKeywords": [
+        "Java 11 or newer (explicit version)",
+        "MySQL",
+        "SQL Server",
+        "Code Reviews",
+        "QA Teams (explicit collaboration)"
+      ],
+      "formattingIssues": [],
+      "skillSuggestions": [
+        "Spring Security (given authentication implementation)",
+        "JUnit/Mockito (for testing frameworks)",
+        "Cloud-native patterns (e.g., Circuit Breakers, Service Mesh)",
+        "Observability tools (e.g., Prometheus, Grafana, ELK Stack)",
+        "API Gateway (if not covered by microservices architecture)"
+      ],
+      "sectionCompleteness": [
+        "Degree and major in Education section",
+        "Notice period",
+        "Current salary"
+      ]
+    },
+    "createdAt": "2026-04-26T03:39:29.000Z"
+  },
+  {
+    "id": "1777195399645",
+    "resumeId": "1777195399210",
+    "userId": "1777190100646",
+    "result": {
+      "score": 92,
+      "summary": "Highly skilled SDE-II Backend Engineer with 3 years of experience in designing, developing, and optimizing scalable, distributed systems using Java, Spring Boot, and Microservices. Proven ability to deliver high-performance, reliable backend applications, with strong experience in cloud platforms like Azure, event-driven architectures, and modern DevOps practices. Eager to contribute to dynamic development teams.",
+      "suggestions": [
+        {
+          "tip": "Always specify your degree (e.g., Bachelor of Technology in Computer Science) and consider adding relevant coursework or GPA if strong, to provide more context.",
+          "example": "Bachelor of Technology in Computer Science, Birla Institute of Technology, Mesra (2019-2023)",
+          "section": "Education"
+        },
+        {
+          "tip": "Your current bullets are excellent, but for a Senior role, demonstrating collaboration and mentorship is key. If applicable, add a bullet point about participation in code reviews or mentoring junior developers.",
+          "example": "Actively participated in peer code reviews, providing constructive feedback and ensuring adherence to coding standards and best practices, enhancing team code quality.",
+          "section": "Experience"
+        },
+        {
+          "tip": "Consider adding a 'Certifications' section if you possess any relevant cloud (e.g., Azure Developer Associate) or professional certifications, which can further strengthen your profile.",
+          "example": "Certifications: Microsoft Certified: Azure Developer Associate",
+          "section": "Overall"
+        }
+      ],
+      "keywordMatch": 95,
+      "bulletRewrites": [
+        {
+          "original": "Strengthened application security by implementing cookie-based authentication using Duende BFF and improving overall code reliability through comprehensive unit and integration testing (40% coverage increase).",
+          "rewritten": "Enhanced application security by implementing robust cookie-based authentication with Duende BFF, and significantly improved code reliability by boosting unit and integration test coverage by 40%."
+        }
+      ],
+      "skillRelevance": 98,
+      "missingKeywords": [
+        "SQL query optimization examples",
+        "Java 11+ explicit mention",
+        "Active participation in code reviews"
+      ],
+      "formattingIssues": [],
+      "skillSuggestions": [
+        "Explicitly mention the Java version used (e.g., Java 11, Java 17)",
+        "Add detail about specific SQL query optimization techniques or complex queries handled"
+      ],
+      "sectionCompleteness": [
+        "Degree type in Education",
+        "Notice Period",
+        "Current Salary"
+      ]
+    },
+    "createdAt": "2026-04-26T03:53:19.000Z"
+  },
+  {
+    "id": "1777320639919",
+    "resumeId": "1777320639685",
+    "userId": "1777317616072",
+    "result": {
+      "score": 88,
+      "summary": "Strong SDE-II candidate with excellent quantifiable metrics (e.g., 70% throughput increase, 99.9% reliability). The resume demonstrates a sophisticated understanding of distributed systems and Azure cloud services. Improving keyword density for testing frameworks and container orchestration would further optimize for ATS.",
+      "suggestions": [
+        {
+          "tip": "Explicitly list testing frameworks and specific SQL/NoSQL databases by name to pass automated filters.",
+          "example": "Testing: JUnit, Mockito, TestNG",
+          "section": "Technical Skills"
+        },
+        {
+          "tip": "Quantify your total years of experience clearly if you have internship experience that bridges the gap between graduation and current role.",
+          "example": "Backend Engineer with 3+ years of experience across internships and full-time roles...",
+          "section": "Professional Summary"
+        }
+      ],
+      "keywordMatch": 85,
+      "bulletRewrites": [
+        {
+          "original": "Optimized item creation and persistence workflows handling up to 10M records daily across multiple storage systems and cross-team integrations, achieving 99.9% data reliability and consistency.",
+          "rewritten": "Engineered high-concurrency data persistence layer for 10M+ daily records, ensuring 99.9% consistency across distributed storage systems using Spring Boot and Azure."
+        }
+      ],
+      "skillRelevance": 95,
+      "missingKeywords": [
+        "Kubernetes",
+        "JUnit",
+        "Mockito",
+        "NoSQL",
+        "SQL",
+        "System Design",
+        "Scalability",
+        "Multi-threading"
+      ],
+      "formattingIssues": [
+        "Extraneous comma in the Backend skills section: ', Micro services'",
+        "Minor spacing inconsistency in the Technical Skills header"
+      ],
+      "sectionCompleteness": [
+        "Certifications",
+        "Languages (Spoken)",
+        "Awards/Honors"
+      ],
+      "skillGapSuggestions": [
+        "Add skills like Kubernetes (K8s) to complement Docker experience",
+        "Add JUnit and Mockito to specify the type of unit/integration testing performed",
+        "Add System Design to emphasize architectural capabilities for SDE-II roles"
+      ]
+    },
+    "createdAt": "2026-04-27T14:40:39.000Z"
+  },
+  {
+    "id": "1777320698586",
+    "resumeId": "1777320698354",
+    "userId": "1777317616072",
+    "result": {
+      "score": 48,
+      "summary": "Bhoomika is a strong Backend/SDE-II candidate with significant experience in distributed systems and Azure. However, the resume is heavily skewed toward backend engineering, while the target Job Description is for a UI/Angular specialist. To succeed, the candidate must highlight HTML5/CSS3 skills, UX collaboration, and UI-specific performance tuning.",
+      "suggestions": [
+        {
+          "tip": "The summary explicitly labels you as a 'Backend Engineer'. Since the job is for a UI/Frontend role, pivot this to 'Full Stack' or 'Frontend-focused Developer'.",
+          "example": "Full-Stack Developer with 3 years of experience, specializing in building enterprise-grade Angular applications and scalable backend systems.",
+          "section": "Professional Summary"
+        },
+        {
+          "tip": "Add a dedicated Web/Frontend section to include foundational technologies required by the JD.",
+          "example": "Web Technologies: HTML5, CSS3, JavaScript (ES6+), Angular 15+, RxJS, PrimeNG, Accessibility (WCAG).",
+          "section": "Technical Skills"
+        },
+        {
+          "tip": "Elaborate on the Angular bullet point to mention UX design translation and performance optimization.",
+          "example": "Developed a responsive enterprise frontend using Angular 15+, translating complex UX wireframes into accessible, high-performance UI components.",
+          "section": "Experience"
+        }
+      ],
+      "keywordMatch": 42,
+      "bulletRewrites": [
+        {
+          "original": "Developed a responsive frontend using Angular, TypeScript, and PrimeNG, enabling efficient product search, viewing, and maintenance with seamless end-to-end API integration.",
+          "rewritten": "Architected a responsive enterprise UI using Angular 15 and PrimeNG, translating UX wireframes into accessible, high-performance components and integrating REST APIs for 10M+ SKU data management."
+        },
+        {
+          "original": "Modernized Angular and Spring Boot applications to the latest LTS versions, improving deployment consistency and reducing deprecated dependencies by 30%.",
+          "rewritten": "Led the migration of legacy frontend modules to Angular 15, ensuring cross-browser compatibility and implementing UI performance optimizations that reduced load times by 30%."
+        }
+      ],
+      "skillRelevance": 55,
+      "missingKeywords": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Accessibility",
+        "UX Designs",
+        "Wireframes",
+        "Visual Design Specifications",
+        "Cross-browser compatibility",
+        "Performance optimization",
+        "Unit testing (Frontend)",
+        "Coding standards"
+      ],
+      "formattingIssues": [
+        "Missing a dedicated 'Languages/Tools' section for web-specific technologies like CSS3 or HTML5.",
+        "The contact information is dense; phone and email could be separated for better readability."
+      ],
+      "sectionCompleteness": [
+        "Portfolio/Github link",
+        "Certifications (relevant to UI/Angular)",
+        "UI/UX Project Portfolio"
+      ],
+      "skillGapSuggestions": [
+        "Add skills like HTML5, CSS3, and JavaScript to explicitly match JD requirements.",
+        "Mention knowledge of Accessibility (WCAG) guidelines and cross-browser testing tools.",
+        "Include UI testing frameworks like Jasmine, Karma, or Jest to meet the 'Unit Testing' requirement."
+      ]
+    },
+    "createdAt": "2026-04-27T14:41:38.000Z"
+  },
+  {
+    "id": "1777322701085",
+    "resumeId": "1777322700844",
+    "userId": "1777322142287",
+    "result": {
+      "score": 60,
+      "summary": "The resume presents a strong technical foundation in backend development with Java, Spring Boot, and Azure, demonstrated through impactful, quantifiable achievements in the experience section and relevant projects. However, a critical discrepancy between the stated '3 years of experience' in the summary and the actual professional experience dates (less than 1 year since graduation) significantly undermines credibility and needs immediate correction. The candidate shows proficiency in microservices, event-driven architectures, and modern DevOps practices. With clarification on experience and addition of more advanced cloud-native and observability skills, this resume could be highly competitive.",
+      "suggestions": [
+        {
+          "tip": "Crucially, the '3 years of experience' in your summary directly contradicts the employment dates (July 2023 - Present) and your graduation date (May 2023). This discrepancy is a major red flag for recruiters and ATS. Please correct this to reflect your actual professional experience (currently ~9 months) or add previous relevant experience if you have it.",
+          "example": "Update summary to reflect ~1 year of experience, or list any prior internships/roles that contribute to the '3 years' claim.",
+          "section": "Professional Summary & Experience"
+        },
+        {
+          "tip": "Specify the degree obtained (e.g., Bachelor of Technology in Computer Science).",
+          "example": "Birla Institute of Technology, Mesra - Bachelor of Technology in Computer Science, July 2019 – May 2023",
+          "section": "Education"
+        },
+        {
+          "tip": "Add a LinkedIn profile URL for easy professional networking and verification.",
+          "example": "LinkedIn: linkedin.com/in/bhoomika-nidagundi",
+          "section": "Contact Information"
+        },
+        {
+          "tip": "While the bullet points are strong and quantifiable, consider adding a brief introductory sentence for each role to set the context of your responsibilities.",
+          "example": "As a Software Developer-II at Fastenal, I was responsible for developing and optimizing backend systems critical to our e-commerce platform, focusing on scalability and reliability.",
+          "section": "Experience"
+        },
+        {
+          "tip": "For projects, briefly mention the purpose or business problem each project aimed to solve.",
+          "example": "Distributed E-Com Microservices Backend - Developed a scalable e-commerce platform backend to handle high traffic and complex order processing.",
+          "section": "Projects"
+        }
+      ],
+      "keywordMatch": 95,
+      "bulletRewrites": [
+        {
+          "original": "Developed a responsive frontend using Angular, TypeScript, and PrimeNG, enabling efficient product search, viewing, and maintenance with seamless end-to-end API integration.",
+          "rewritten": "Contributed to full-stack development by building a responsive frontend with Angular, TypeScript, and PrimeNG, enabling efficient product search and maintenance, while ensuring seamless end-to-end API integration with robust backend services."
+        },
+        {
+          "original": "Strengthened application security by implementing cookie-based authentication using Duende BFF and improving overall code reliability through comprehensive unit and integration testing (40% coverage increase).",
+          "rewritten": "Enhanced application security by implementing cookie-based authentication via Duende BFF and significantly improved code reliability by increasing unit and integration test coverage by 40%."
+        }
+      ],
+      "skillRelevance": 95,
+      "missingKeywords": [
+        "Kubernetes",
+        "Terraform",
+        "Prometheus",
+        "Grafana",
+        "Distributed Tracing (e.g., Jaeger, Zipkin)",
+        "JUnit",
+        "Mockito",
+        "API Gateway",
+        "System Design (Interviews)",
+        "Observability"
+      ],
+      "formattingIssues": [],
+      "sectionCompleteness": [
+        "Degree type in Education section",
+        "LinkedIn Profile URL",
+        "Total Years of Experience (Clarification needed)"
+      ],
+      "skillGapSuggestions": [
+        "Add skills like Kubernetes, Terraform, and advanced Azure services (e.g., AKS, Azure Event Hubs) to demonstrate deeper cloud and infrastructure-as-code expertise.",
+        "Include observability tools such as Prometheus, Grafana, or the ELK stack (Elasticsearch, Logstash, Kibana) to highlight monitoring and logging capabilities.",
+        "Specify testing frameworks like JUnit and Mockito to elaborate on your testing practices beyond general mention.",
+        "Mention knowledge of advanced security protocols (e.g., OAuth2, OIDC) and API Gateway implementation for microservices.",
+        "Showcase experience with distributed tracing tools like Jaeger or Zipkin for debugging complex microservices architectures.",
+        "Consider adding soft skills like 'Mentorship' or 'Technical Leadership' if those align with your SDE-II aspirations and actual experience."
+      ]
+    },
+    "createdAt": "2026-04-27T15:15:01.000Z"
+  },
+  {
+    "id": "1777322954228",
+    "resumeId": "1777322953990",
+    "userId": "1777322142287",
+    "result": {
+      "score": 90,
+      "summary": "This is a very strong resume for a Backend Engineer, showcasing robust technical skills in Java, Spring Boot, Azure, and microservices architecture. The experience section is exceptional, featuring quantifiable achievements and impactful contributions, especially in scalability, reliability, and performance. The projects further demonstrate practical application of skills. The primary area for improvement is to reconcile the '3 years of experience' stated in the summary with the listed work history, which currently only details ~1 year 4 months. Addressing this, along with minor enhancements in keyword visibility for system design and observability tools, would make it even more compelling for SDE-II+ roles.",
+      "suggestions": [
+        {
+          "tip": "Align the stated years of experience with the detailed work experience. If you have other relevant experience (e.g., internships, previous full-time roles) that contribute to the '3 years,' explicitly list them in the experience section. Otherwise, update the summary to reflect the actual duration of the listed experience.",
+          "example": "Currently, the summary states '3 years of experience' while the listed role is ~1 year and 4 months. Clarify this discrepancy.",
+          "section": "Professional Summary"
+        },
+        {
+          "tip": "While the bullets are excellent, consider adding a very brief overarching context or the business goal for each major project/initiative if it enhances understanding of its strategic importance.",
+          "example": "Instead of just 'Architected and implemented a distributed Mass Load system...', consider adding 'To support global product expansion, architected and implemented...'",
+          "section": "Experience"
+        },
+        {
+          "tip": "Consider organizing skills into clearer categories or adding an 'Tools' category to list specific monitoring, testing, or build tools if applicable.",
+          "example": "You have 'Azure DevOps (CI/CD)' under Cloud & DevOps, but could also list other build/test tools if used regularly.",
+          "section": "Skills"
+        },
+        {
+          "tip": "For projects, consider briefly mentioning the 'why' behind the project and any specific technical challenges faced and how they were overcome.",
+          "example": "For 'Distributed E-Com Microservices Backend', you could add 'Addressed challenges of high concurrency and data consistency by implementing asynchronous workflows...'",
+          "section": "Projects"
+        },
+        {
+          "tip": "If you have any leadership, mentoring, or technical leadership experience, even informal, consider adding a bullet point to showcase those soft skills relevant for an SDE-II role.",
+          "example": "Mentored junior developers on best practices for microservices design and Java Spring Boot development.",
+          "section": "General"
+        }
+      ],
+      "keywordMatch": 95,
+      "bulletRewrites": [
+        {
+          "original": "Architected and implemented a distributed Mass Load system capable of processing up to 10M SKUs daily, decomposing the workflow into independently scalable microservices for improved fault isolation and resilience, increasing overall throughput by 70%.",
+          "rewritten": "Designed and delivered a distributed Mass Load system processing 10M+ SKUs daily, leveraging microservices for fault isolation and resilience, boosting throughput by 70%."
+        },
+        {
+          "original": "Strengthened application security by implementing cookie-based authentication using Duende BFF and improving overall code reliability through comprehensive unit and integration testing (40% coverage increase).",
+          "rewritten": "Enhanced application security via Duende BFF cookie-based authentication and elevated code reliability through comprehensive unit/integration testing, increasing coverage by 40%."
+        }
+      ],
+      "skillRelevance": 95,
+      "missingKeywords": [
+        "System Design (explicit)",
+        "Observability",
+        "Monitoring (specific tools like Prometheus, Grafana)",
+        "Performance Testing",
+        "Cloud Security",
+        "Data Structures and Algorithms (common SDE-II expectation)"
+      ],
+      "formattingIssues": [],
+      "sectionCompleteness": [],
+      "skillGapSuggestions": [
+        "Add skills like 'Distributed Systems Design', 'System Architecture' to explicitly highlight design capabilities.",
+        "Consider listing specific observability tools (e.g., 'Prometheus', 'Grafana', 'Datadog') if used.",
+        "If applicable, include experience with broader cloud providers (e.g., 'AWS', 'GCP') to demonstrate versatility beyond Azure.",
+        "Add explicit mention of 'Design Patterns' and 'Data Structures & Algorithms' to showcase foundational computer science knowledge.",
+        "Detail specific performance testing tools (e.g., 'JMeter', 'Gatling') or methodologies if regularly applied."
+      ]
+    },
+    "createdAt": "2026-04-27T15:19:14.000Z"
+  },
+  {
+    "id": "1777323334310",
+    "resumeId": "1777323334045",
+    "userId": "1777323292832",
+    "result": {
+      "score": 80,
+      "summary": "This resume presents a highly skilled SDE-II Backend Engineer with strong expertise in Java, Spring Boot, and Azure, demonstrating impactful achievements in building scalable, distributed, and event-driven microservices. The candidate showcases excellent quantifiable results in performance optimization, cloud migration, and enhancing system reliability. Key areas for improvement include resolving the discrepancy in stated years of experience, providing complete education details, and explicitly listing common testing and monitoring tools to further optimize ATS matching.",
+      "suggestions": [
+        {
+          "tip": "The stated '3 years of experience' in the summary is inconsistent with the 'July 2023 – Present' duration listed under professional experience. Please ensure the summary accurately reflects the total professional experience or explicitly mentions if it includes internships/academic projects.",
+          "example": "If professional experience is 1 year, update the summary to 'SDE-II Backend Engineer with 1+ years of experience...' or add previous roles if the 3 years is accurate.",
+          "section": "Professional Summary"
+        },
+        {
+          "tip": "Clearly specify the degree obtained (e.g., Bachelor of Technology, Master of Science) and the major/field of study (e.g., Computer Science Engineering). This is crucial for ATS parsing and recruiter understanding.",
+          "example": "Birla Institute of Technology, Mesra | Bachelor of Technology in Computer Science Engineering | July 2019 – May 2023",
+          "section": "Education"
+        },
+        {
+          "tip": "Consider explicitly listing commonly used testing frameworks (e.g., JUnit, Mockito) and specific monitoring/logging tools (e.g., Prometheus, Grafana, ELK stack) if you have experience with them, to broaden keyword matching.",
+          "example": "Testing: JUnit, Mockito, Selenium | Monitoring: Prometheus, Grafana",
+          "section": "Technical Skills"
+        },
+        {
+          "tip": "While the current resume is strong, adding a link to a professional portfolio (GitHub, LinkedIn) in the contact information would allow recruiters to explore projects and contributions further.",
+          "example": "GitHub: github.com/yourprofile | LinkedIn: linkedin.com/in/yourprofile",
+          "section": "Overall"
+        }
+      ],
+      "keywordMatch": 92,
+      "bulletRewrites": [
+        {
+          "original": "Architected and implemented a distributed Mass Load system capable of processing up to 10M SKUs daily, decomposing the workflow into independently scalable microservices for improved fault isolation and resilience, increasing overall throughput by 70%.",
+          "rewritten": "Spearheaded the design and implementation of a distributed Mass Load system to handle 10M SKUs daily, strategically decomposing the workflow into independently scalable microservices to enhance fault isolation, resilience, and achieve a 70% increase in overall throughput."
+        }
+      ],
+      "skillRelevance": 95,
+      "missingKeywords": [
+        "JUnit",
+        "Mockito",
+        "OAuth2",
+        "JWT",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "Observability",
+        "System Design Patterns"
+      ],
+      "formattingIssues": [],
+      "sectionCompleteness": [
+        "Degree and Major for Education"
+      ],
+      "skillGapSuggestions": [
+        "Add skills like JUnit, Mockito to explicitly showcase unit and integration testing expertise.",
+        "Consider including experience with container orchestration platforms such as Kubernetes, especially given your Docker experience.",
+        "Explicitly mention proficiency in security protocols like OAuth2 or JWT, beyond specific authentication libraries.",
+        "Detail experience with specific monitoring and logging solutions (e.g., Prometheus, Grafana, Azure Monitor, ELK Stack).",
+        "Reinforce System Design expertise by explicitly listing 'System Design' or 'Distributed Systems Design' as a skill."
+      ]
+    },
+    "createdAt": "2026-04-27T15:25:34.000Z"
+  },
+  {
+    "id": "1777323814057",
+    "resumeId": "1777323813798",
+    "userId": "1777144556281",
+    "result": {
+      "score": 89,
+      "summary": "Bhoomika Nidagundi presents as a highly capable Backend Engineer with nearly 1 year of professional experience in an SDE-II role at Fastenal. The resume showcases a strong command of Java, Spring Boot, and Azure, with practical experience in designing and implementing scalable microservices, event-driven architectures, and CI/CD pipelines. Achievements are quantified and impactful, demonstrating expertise in optimizing performance, enhancing reliability, and migrating legacy systems. The resume is well-structured and highlights relevant projects. The primary area for clarification is the discrepancy in total experience stated in the summary versus documented professional roles.",
+      "suggestions": [
+        {
+          "tip": "The summary states '3 years of experience', but the listed professional experience at Fastenal is approximately 11 months (July 2023 – Present). It's crucial to clarify if the '3 years' includes internships, academic projects, or previous professional roles not detailed, as this discrepancy can raise questions for recruiters. Adjust to reflect professional experience accurately.",
+          "example": "SDE-II Backend Engineer with 1 year of professional experience (and X years of relevant project/internship experience) designing and building scalable...",
+          "section": "Professional Summary"
+        },
+        {
+          "tip": "While C++ and C# are listed, they do not appear to be utilized in the 'Experience' or 'Projects' sections. Consider moving them to a 'Familiar With' or 'Other Languages' subsection if they are not core to your target roles, to maintain focus on your primary expertise (Java/Go backend).",
+          "example": "Languages: Java, Go, TypeScript; Familiar With: C++, C#",
+          "section": "Technical Skills"
+        },
+        {
+          "tip": "For completeness, explicitly state the degree obtained (e.g., Bachelor of Technology in Computer Science) in the education section.",
+          "example": "Bachelor of Technology in Computer Science, Birla Institute of Technology, Mesra July 2019 – May 2023",
+          "section": "Education"
+        },
+        {
+          "tip": "For the projects, consider adding a brief context or problem statement for each project to further highlight the impact and your problem-solving skills.",
+          "example": "Distributed E-Com Microservices Backend (Add: 'Developed to address scalability limitations of a monolithic e-commerce platform...')",
+          "section": "Projects"
+        }
+      ],
+      "keywordMatch": 93,
+      "bulletRewrites": [
+        {
+          "original": "Architected and implemented a distributed Mass Load system capable of processing up to 10M SKUs daily, decomposing the workflow into independently scalable microservices for improved fault isolation and resilience, increasing overall throughput by 70%.",
+          "rewritten": "Designed, implemented, and deployed a distributed Mass Load system, successfully processing over 10M SKUs daily, by segmenting workflows into fault-isolated microservices, which enhanced system resilience and boosted throughput by 70%."
+        }
+      ],
+      "skillRelevance": 95,
+      "missingKeywords": [
+        "Microservice orchestration (e.g., Saga pattern)",
+        "Distributed tracing (e.g., Zipkin, OpenTelemetry)",
+        "Observability tools (e.g., Prometheus, Grafana, ELK stack)",
+        "Specific cloud services for resilience/high-availability (e.g., Azure Traffic Manager, Azure Front Door)",
+        "Advanced caching strategies (e.g., cache invalidation patterns)",
+        "Design patterns (e.g., Factory, Singleton, Strategy - if not implicitly covered)",
+        "Security best practices (beyond authentication, e.g., input validation, secure coding practices)"
+      ],
+      "formattingIssues": [],
+      "sectionCompleteness": [],
+      "skillGapSuggestions": [
+        "Add skills like specific system design principles (e.g., CAP Theorem considerations, eventual consistency patterns) to demonstrate theoretical depth.",
+        "Consider including experience with advanced cloud services or managed databases (e.g., Azure Kubernetes Service, Azure Cosmos DB, Azure Service Bus for advanced messaging patterns).",
+        "Mention any contributions to code reviews, mentorship, or technical leadership if applicable, especially for an SDE-II role.",
+        "Explore adding keywords related to API Gateway management and security features (e.g., rate limiting, authentication/authorization policies via API Gateway)."
+      ]
+    },
+    "createdAt": "2026-04-27T15:33:34.000Z"
+  },
+  {
+    "id": "1777327419332",
+    "resumeId": "1777327419094",
+    "userId": "1777144556281",
+    "result": {
+      "score": 75,
+      "summary": "This resume presents a highly skilled and promising backend engineer with a strong foundation in Java, Spring Boot, Azure, and microservices architecture. The experience section is notably impactful, featuring quantifiable achievements and a clear demonstration of technical proficiency (e.g., 70% throughput increase, 40% processing time reduction). The core technical skills are excellent for a backend SDE-II role. However, a critical discrepancy exists between the '3 years of experience' claimed in the summary and the actual professional employment dates listed (approximately 1 year post-graduation). Addressing this and completing the education details are crucial next steps to ensure the resume is accurately perceived by ATS and recruiters.",
+      "suggestions": [
+        {
+          "tip": "The '3 years of experience' in the summary directly contradicts the listed professional employment dates (July 2023 - Present), which indicates approximately 1 year of professional experience. This is a critical discrepancy that will be flagged by recruiters and ATS. You must either update your summary to reflect accurate professional experience or add any previous relevant roles/internships to the 'Experience' section to justify the 3 years claim.",
+          "example": "If 3 years includes internships: 'SDE-II Backend Engineer with 1 year professional experience and 2 years of impactful internship experience...'",
+          "section": "Professional Summary / Experience"
+        },
+        {
+          "tip": "Specify the full degree name (e.g., Bachelor of Technology in Computer Science) for clarity and to ensure accurate ATS parsing.",
+          "example": "Birla Institute of Technology, Mesra | Bachelor of Technology in Computer Science | July 2019 – May 2023",
+          "section": "Education"
+        },
+        {
+          "tip": "While your project descriptions are good, consider adding a brief 'challenge' and 'solution' narrative to each to further highlight problem-solving skills, similar to the impactful bullet points in your professional experience.",
+          "example": "Distributed E-Com Microservices Backend: Addressed data consistency and service coupling challenges by designing a domain-driven architecture with independent data stores and implementing asynchronous order–payment workflows using Kafka, ensuring eventual consistency.",
+          "section": "Projects"
+        },
+        {
+          "tip": "Continue to scrutinize every bullet point for opportunities to add more specific metrics, percentages, or concrete outcomes, even for achievements that already include numbers. This further strengthens impact.",
+          "example": "Instead of 'Strengthened application security...', consider 'Significantly enhanced application security posture by X% through implementing cookie-based authentication...'",
+          "section": "Overall"
+        }
+      ],
+      "keywordMatch": 90,
+      "bulletRewrites": [
+        {
+          "original": "Strengthened application security by implementing cookie-based authentication using Duende BFF and improving overall code reliability through comprehensive unit and integration testing (40% coverage increase).",
+          "rewritten": "Enhanced application security by implementing robust cookie-based authentication with Duende BFF, concurrently boosting code reliability and stability through a 40% increase in comprehensive unit and integration test coverage."
+        }
+      ],
+      "skillRelevance": 95,
+      "missingKeywords": [
+        "Observability (e.g., Prometheus, Grafana, ELK stack)",
+        "Container Orchestration (e.g., Kubernetes, Helm)",
+        "Testing frameworks (e.g., JUnit, Mockito, TestNG explicitly)",
+        "Advanced System Design Patterns (e.g., CQRS, Saga, Event Sourcing)",
+        "Cloud Security Best Practices (beyond authentication, e.g., Azure Key Vault, Managed Identities)"
+      ],
+      "formattingIssues": [],
+      "sectionCompleteness": [
+        "Degree name in Education section is missing."
+      ],
+      "skillGapSuggestions": [
+        "Add skills like Kubernetes, Helm, or other container orchestration tools to demonstrate advanced deployment and management capabilities in cloud environments.",
+        "Include observability tools such as Prometheus, Grafana, or the ELK stack (Elasticsearch, Logstash, Kibana) to highlight experience in monitoring, logging, and performance analysis.",
+        "Explicitly mention specific testing frameworks like JUnit, Mockito, or TestNG in your skills section or experience to underscore your commitment to robust software quality.",
+        "Consider gaining and showcasing experience with specific cloud security tools and practices relevant to Azure, such as Azure Key Vault, Managed Identities, or Azure Security Center.",
+        "Highlight knowledge of advanced system design patterns beyond basic microservices, such as CQRS (Command Query Responsibility Segregation), Saga pattern, or Event Sourcing, if you have applicable experience."
+      ]
+    },
+    "createdAt": "2026-04-27T16:33:39.000Z"
+  }
+]

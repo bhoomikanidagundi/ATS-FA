@@ -1,0 +1,338 @@
+[
+  {
+    "id": "1777144199932",
+    "email": "Srujanmirji10@gmail.com",
+    "password": "$2b$10$bz0v0ajFNFmnbv1CZfAbXuG5MW/02LDkT3oygI/52rh7hdaHfYPxq",
+    "name": "Srujan mirji",
+    "role": "candidate"
+  },
+  {
+    "id": "1777144556281",
+    "email": "bhoomikanidagundi06@gmail.com",
+    "password": "$2b$10$jGxBd4FNf1l7DeVV0i0KKusKDaLRhN5ecLveE088uDvGR7I2fbeXW",
+    "name": "bhoomika",
+    "role": "candidate"
+  },
+  {
+    "id": "1777146741302",
+    "email": "ajbjdb@gmail.com",
+    "password": "$2b$10$Ge.TA2wizL2xDBN4ObPzH.XlT8CifJLFNwMXifbRDq3PlWd4cVWt2",
+    "name": "gad",
+    "role": "recruiter"
+  },
+  {
+    "id": "1777149182464",
+    "email": "ana190@gmail.com",
+    "password": "$2b$10$YgEluJvHagBfUz6Iclf9aOk25C.MUZy.SJbQ/vVqmhkdoqwO3H.di",
+    "name": "ana",
+    "role": "recruiter"
+  },
+  {
+    "id": "1777149329589",
+    "email": "ana13@gmail.com",
+    "password": "$2b$10$fGzLcgFcWk.Mmo2OuMtRFOFKdnGipyRL14PEfgOHvTE.uavnBON8C",
+    "name": "ana",
+    "role": "candidate"
+  },
+  {
+    "id": "1777149442092",
+    "email": "ana1331@gmai.com",
+    "password": "$2b$10$rDAhIykVF.9sA/5mW/zibeiNbysoCjJ0q09N0vtl2H0wgu6JAQw9S",
+    "name": "anaa",
+    "role": "candidate"
+  },
+  {
+    "id": "1777149479038",
+    "email": "ana@gmail.com",
+    "password": "$2b$10$f1MsQLyeUEihmNA50v52Ou9z/0vNdaXaQfDEPkhNjm18.LA3iNBYe",
+    "name": "anas",
+    "role": "recruiter"
+  },
+  {
+    "id": "1777149806703",
+    "email": "ana899@gmail.com",
+    "password": "$2b$10$uyQX89XWQm8fQNAEsrUdxOenlexpzhBtIXkx/UBI7gGAX3Vvd2Gu.",
+    "name": "ana",
+    "role": "recruiter"
+  },
+  {
+    "id": "1777149861552",
+    "email": "anhh@gmail.com",
+    "password": "$2b$10$79j8.DUagIAEXsyeozJVqOKOwQwGwdgmTQIYL5NGT2CxRJWYzPkdS",
+    "name": "anaaaa",
+    "role": "candidate"
+  },
+  {
+    "id": "1777151807450",
+    "email": "sajj@gmail.com",
+    "password": "$2b$10$iEH9IlRPGy.pzFNnshAe.e2H9BRzDaz.zpYI2iiggSdPGujmVbgX6",
+    "name": "sajj",
+    "role": "candidate"
+  },
+  {
+    "id": "1777187476682",
+    "email": "bhoomika@gmail.com",
+    "password": "$2b$10$Cuwx3C3k4yGFQz3aqiMiAeXODkEV0rTTmi3RlE2UH.eoRYcut8tUK",
+    "name": "bhoomika",
+    "role": "candidate"
+  },
+  {
+    "id": "1777187521017",
+    "email": "anuaa@gmail.com",
+    "password": "$2b$10$suZaFsOhPqDX0zA8kBtmnujzY/7bSpaRHoi90wo6t83KNHaFwujLa",
+    "name": "anu",
+    "role": "candidate"
+  },
+  {
+    "id": "1777187554234",
+    "email": "anush@gmail.com",
+    "password": "$2b$10$FZ3BqQA1G2aaCoptMZpFz.bZ9uF6lOzGZLi5FfYrgtq9fCPQWse.y",
+    "name": "anna",
+    "role": "recruiter"
+  },
+  {
+    "id": "1777189526178",
+    "email": "anaaa@gmail.com",
+    "password": "$2b$10$9yl1to0t7ACqS2uc2.mrIeWVib1.bjALJaW.gdQ16BXd0gDLls.Hm",
+    "name": "bhggd",
+    "role": "candidate"
+  },
+  {
+    "id": "1777189720105",
+    "email": "anus@gmail.com",
+    "password": "$2b$10$NPBLOT3hCXPUY55/73QP0OECGfjjjQFuzHwDQ4sVZmoR6GPtuHpxe",
+    "name": "anus",
+    "role": "candidate"
+  },
+  {
+    "id": "1777189757300",
+    "email": "anush96@gmail.com",
+    "password": "$2b$10$K1lcOtS1DZNX4J0rKrrUHeacydY2/Q9wQP5D.21g2KAiAuLje6SM6",
+    "name": "anusij",
+    "role": "recruiter"
+  },
+  {
+    "id": "1777190100646",
+    "email": "aishi@gmail.com",
+    "password": "$2b$10$DR6Fv5wrVcUhFe/0/8WufO/wnihBu7pGMYSgkXrAVqZNubk0yqjj2",
+    "name": "aishi",
+    "role": "candidate"
+  },
+  {
+    "id": "1777196942253",
+    "email": "test3@example.com",
+    "password": "$2b$10$yR2m9v4E2Q0dp2NHrvIhp.w0lspFu8Ezn8VGPVHqPQeGs5N0nAe.q",
+    "name": "Test User",
+    "role": "candidate"
+  },
+  {
+    "id": "1777204392136",
+    "email": "jwok1819@gmail.com",
+    "password": "$2b$10$BerIQ1DhwyyJ8T.7u2s92.A9M9BpY7DbMOnVvuultIfBv7IfJ/ReC",
+    "name": "Jazz",
+    "role": "candidate"
+  },
+  {
+    "id": "1777207454187",
+    "email": "Srujanmirji20@gmail.com",
+    "password": "$2b$10$E0BXFiz.M83FNx4Nbv4mx.2VKeQ7nbQSCp19z/9vjMy0fxc9yPAwC",
+    "name": "Srujan",
+    "role": "candidate"
+  },
+  {
+    "id": "1777208997853",
+    "email": "meghanakuppast77@gmail.com",
+    "password": "$2b$10$h/CQxKRJyb.U9j/A2r1DleYzFZhGgSgvNd4F3oCYE4LtbOjK8CQ5K",
+    "name": "hhghj",
+    "role": "candidate"
+  },
+  {
+    "id": "1777209083998",
+    "email": "meghanakuppast77@klebcahubli",
+    "password": "$2b$10$aeZ4gB.FICc7ZTjRGQ967eF9qwUGaG43XNyTUa8BSZuCf2Vj8lZBS",
+    "name": "ju",
+    "role": "recruiter"
+  },
+  {
+    "id": "1777261606793",
+    "email": "tejaswinishivashimpiger@gmail.com",
+    "password": "$2b$10$Brt1.wvynxE7AXnw5vNM1e3qhtTN0gYsemkwrP3722gyEGS/NE436",
+    "name": "klkmj",
+    "role": "candidate"
+  },
+  {
+    "id": "1777280690340",
+    "email": "bhoomi@gmail.com",
+    "password": "$2b$10$qACN0y0yf/KQBsodzwz9NO3W6Xs289drqWtng/YWrLIzQK2RO0Ej.",
+    "name": "bhoomi",
+    "role": "candidate"
+  },
+  {
+    "id": "1777284493203",
+    "email": "anna@gmail.com",
+    "password": "$2b$10$/ipa6stky9l1oaTcF85XHeprBRE1DrfibHZp6jfHm9Tjl1Fhs/lmC",
+    "name": "anaa",
+    "role": "candidate"
+  },
+  {
+    "id": "1777303659814",
+    "email": "hbhbm@gmail.com",
+    "password": "$2b$10$SzMoGfW8VozRqjqUGhkhAuRzjiOXuPSjfvI/mJ1Tivyq/WJ.H8WFu",
+    "name": "nnjn",
+    "role": "candidate"
+  },
+  {
+    "id": "1777303705016",
+    "email": "nmbnm@gmail.com",
+    "password": "$2b$10$LBNIwJF.GRlw2W6oQ2qPbeWrg9D8zsCSr04cFujQIAJncvTNAHSAC",
+    "name": "jbbmn",
+    "role": "recruiter"
+  },
+  {
+    "id": "1777305441448",
+    "email": "jjk@gmail.com",
+    "password": "$2b$10$5UktVLfhP.0QSyLbn.hrZeKMF8XavhNB/GbKhXb8zwUPUZ4ma2n9G",
+    "name": "Nbbn",
+    "role": "candidate"
+  },
+  {
+    "id": "1777308743271",
+    "email": "vhtdtj@gmail.com",
+    "password": "$2b$10$1wJ8bTI/mplx5YOo4FRAQedXokfknolzPLD0HIBX0R/Pt1BgnMdQ2",
+    "name": "njbjbn",
+    "role": "candidate"
+  },
+  {
+    "id": "1777310456110",
+    "email": "meghanakuppast77@klebcahubli.in",
+    "password": "$2b$10$pIw2YE4dU2D/Ym5Ux/GgoOE1Q84FVw6JvPrahHB2s2mKbq73uNXZq",
+    "name": "meghana",
+    "role": "candidate"
+  },
+  {
+    "id": "1777312621360",
+    "email": "jwok18119@gmail.com",
+    "password": "$2b$10$56sic7Xl4P5E8khmVbt4Quuv7KIJDWVDnT6LUABlKEnQWnc7GkLPS",
+    "name": "JAzz",
+    "role": "recruiter"
+  },
+  {
+    "id": "1777312714296",
+    "email": "jwookk10@gmail.com",
+    "password": "$2b$10$Mv/BEgPo4ivWyqcqsov/Qezn2FutNtmW3O8iommz9llVeBgz.5LbO",
+    "name": "jazzzz",
+    "role": "candidate"
+  },
+  {
+    "id": "1777313427268",
+    "email": "vnbnb@gmail.com",
+    "password": "$2b$10$xA51/9yGuW8IVqbHbkoA9ueWHagz2UXHaKh4eYCKF3ES/UMQvNUzm",
+    "name": "bnbnb",
+    "role": "candidate"
+  },
+  {
+    "id": "1777313627735",
+    "email": "bnmbn@gmail.com",
+    "password": "$2b$10$MDL7yr2FvdzpluWBwkRL4OUHSgQR99AcWmWNux20ZAeRNWsMn6xIi",
+    "name": "nbnbmhjhhj",
+    "role": "candidate"
+  },
+  {
+    "id": "1777315166484",
+    "email": "guhvg@gmail.com",
+    "password": "$2b$10$ZsyJTvChwikkbdqhlk0BU.iIhx5NAQ3umUbw3e3duU0ybPEnYvzHm",
+    "name": "Hgvhjh",
+    "role": "candidate"
+  },
+  {
+    "id": "1777315629393",
+    "email": "bvnbvn@gmail.com",
+    "password": "$2b$10$8bfRr0DqtP5dILl5A.QyNeujfCilvGCAYBJUpbZA82bfj877gsfPG",
+    "name": "nbnmbmn",
+    "role": "candidate"
+  },
+  {
+    "id": "1777316173411",
+    "email": "nnmbnm@gmail.com",
+    "password": "$2b$10$VxoPse7Wbu2OKIN5yejZluAUWZrfk8lztHpOifQ3M.HhO1HgKPkRO",
+    "name": "n nm m",
+    "role": "recruiter"
+  },
+  {
+    "id": "1777316201108",
+    "email": "bhoo@gmail.com",
+    "password": "$2b$10$mJhROwA8Kd/KBY6SVjGBw.zPA/DBkePNnvrdglyffXNTYbHbPsjcm",
+    "name": "bhooom",
+    "role": "candidate"
+  },
+  {
+    "id": "1777317616072",
+    "email": "nbmbn@gmail.com",
+    "password": "$2b$10$MwEEllgwoXkrXXlQ9Pry1uf/GyXp2ebuKsVjj7gr7vFDkhO20Flha",
+    "name": "nbnmbmn",
+    "role": "candidate"
+  },
+  {
+    "id": "1777320806112",
+    "email": "bnbn@gmail.com",
+    "password": "$2b$10$xTcYQlvt5HlQIcJVWhnbtOGiZ6ztYxfZwFn3li1jPFd6hzz0EP19u",
+    "name": "snnmbnm",
+    "role": "recruiter"
+  },
+  {
+    "id": "1777321166218",
+    "email": "v@gmail.com",
+    "password": "$2b$10$ys9TkSG.WGmFhcOJGQ4EzedBHEwTglVOIaz6pNfJcLGXI4Wh6OP9e",
+    "name": "Gug",
+    "role": "recruiter"
+  },
+  {
+    "id": "1777321444937",
+    "email": "Gubhb@gmail.com",
+    "password": "$2b$10$Vk.vzoVmhQbZpEhL5LxznejwKMbVS0cD9B3o.l2qVe5MQ1KCPx0iS",
+    "name": "Hjh",
+    "role": "candidate"
+  },
+  {
+    "id": "1777321577526",
+    "email": "nbmnbm@gmail.com",
+    "password": "$2b$10$s6NYCeIfdKtNMiC.8o8z5.2931MCkNAwAkJcQxKgI6YzFxriWJ7om",
+    "name": "jbn",
+    "role": "candidate"
+  },
+  {
+    "id": "1777322142287",
+    "email": "nnbnb@gmail.com",
+    "password": "$2b$10$pUYPd0hNROUG3lQAd6obau/eFL0F6OETPLsjFAjI.gfP9drEA3pPa",
+    "name": "nmbn",
+    "role": "candidate"
+  },
+  {
+    "id": "1777322974597",
+    "email": "bmnbmn@gmail.com",
+    "password": "$2b$10$TPLtspkaAx07sa3MUNKhAO6SINQJCP/ZDEvioIQxraEMbapgeswSm",
+    "name": "nbnmb",
+    "role": "recruiter"
+  },
+  {
+    "id": "1777323292832",
+    "email": "nmbnmbn@gmail.com",
+    "password": "$2b$10$FYgHJpoKTS2GIPTmZk5MTeVTWgd86St/Lwj7w8S9HoTggmVhxHBOO",
+    "name": "bbmnb",
+    "role": "candidate"
+  },
+  {
+    "id": "1777323443766",
+    "email": "nbnm@gmail.com",
+    "password": "$2b$10$xE29SHE9KJPUCcE8dflte.Yd8p.tCJ1dNJUkIv2d1hGRxAEYjXnqa",
+    "name": "nbbn",
+    "role": "recruiter"
+  },
+  {
+    "id": "1777327772335",
+    "email": "nbnbn@gmail.com",
+    "password": "$2b$10$RgzbweDXfBJxlE/wwgo8Fu80cWyUKGPZy9BfTF0ljW68HHTFFtcQ.",
+    "name": "nbn",
+    "role": "candidate"
+  }
+]

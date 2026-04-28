@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1777187909909",
+    "recruiter_id": "1777187554234",
+    "title": "Java Backend Developer ",
+    "description": "Job Description:\nWe are seeking a skilled and passionate Java Backend Developer to join our dynamic development team. The ideal candidate will have strong experience in designing and developing scalable, high-performance backend systems using Java, Spring Boot, and Microservices architecture.\n\nKey Responsibilities:\nDesign, develop, and maintain backend services using Java (preferably Java 11 or newer) and Spring Boot.\nBuild and manage RESTful APIs to support web and mobile frontends.\nDevelop and deploy microservices ensuring modular, scalable, and secure solutions.\nWrite efficient SQL queries and work with relational databases such as PostgreSQL, MySQL, or SQL Server.\nCollaborate with front-end developers, DevOps, and QA teams to deliver complete features and solutions.\nParticipate in code reviews, unit testing, and performance tuning.\nEnsure best practices in code quality, architecture, and security.\n\nRequired Skills:\nStrong programming skills in Core Java (Java 8+)\nProficiency in Spring Boot, Spring MVC, and Spring Data JPA\nSolid understanding of RESTful API design and development\nExperience with Microservices architecture and deployment\nHands-on experience with SQL and relational databases\nFamiliarity with Git, Maven/Gradle, and CI/CD tools\n\n",
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "SQL"
+    ],
+    "experience_required": "2+ years",
+    "created_at": "2026-04-26T01:48:32.000Z",
+    "location": "Remote",
+    "salary": null,
+    "role": null,
+    "years_of_exp": null,
+    "work_mode": null,
+    "skills": null,
+    "notice_period": null,
+    "candidate_name": null,
+    "recruiterId": null
+  },
+  {
+    "id": "1777189993545",
+    "recruiter_id": "1777189757300",
+    "title": "Backend Developer",
+    "description": "Job Description:\nWe are seeking a skilled and passionate Senior Java Backend Developer to join our dynamic development team. The ideal candidate will have strong experience in designing and developing scalable, high-performance backend systems using Java, Spring Boot, and Microservices architecture.\n\nKey Responsibilities:\n•\tDesign, develop, and maintain backend services using Java (preferably Java 11 or newer) and Spring Boot.\n•\tBuild and manage RESTful APIs to support web and mobile frontends.\n•\tDevelop and deploy microservices ensuring modular, scalable, and secure solutions.\n•\tWrite efficient SQL queries and work with relational databases such as PostgreSQL, MySQL, or SQL Server.\n•\tCollaborate with front-end developers, DevOps, and QA teams to deliver complete features and solutions.\n•\tParticipate in code reviews, unit testing, and performance tuning.\n•\tEnsure best practices in code quality, architecture, and security.\n\nRequired Skills:\nStrong programming skills in Core Java (Java 8+)\n•\tProficiency in Spring Boot, Spring MVC, and Spring Data JPA\n•\tSolid understanding of RESTful API design and development\n•\tExperience with Microservices architecture and deployment\n•\tHands-on experience with SQL and relational databases\n•\tFamiliarity with Git, Maven/Gradle, and CI/CD tools\n",
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "SQL",
+      "Micro services"
+    ],
+    "experience_required": "2+years",
+    "created_at": "2026-04-26T02:23:15.000Z",
+    "location": "Remote",
+    "salary": null,
+    "role": null,
+    "years_of_exp": null,
+    "work_mode": null,
+    "skills": null,
+    "notice_period": null,
+    "candidate_name": null,
+    "recruiterId": null
+  },
+  {
+    "id": "1777305062380",
+    "recruiter_id": "1777303705016",
+    "title": "Frontend Developer ",
+    "description": "Required Technical Skillset:-\nStrong expertise in HTML5, CSS3, JavaScript, TypeScript, and Angular (v15 or above).\nAbility to build scalable, responsive, and accessible enterprise-grade user interfaces.\nExperience implementing UI screens based on UX designs, wireframes, and visual design specifications.\nStrong understanding of cross browser compatibility, responsive behavior, and performance optimization.\nExperience integrating UI components with backend services and REST APIs.\nRoles and Responsibilities:-\nDevelop and maintain responsive web applications using HTML5, CSS3, JavaScript, TypeScript, and Angular\nTranslate UX designs, wireframes, and visual specifications into high quality UI implementations\nEnsure cross browser compatibility, responsiveness, and optimal performance across devices\nIntegrate UI components seamlessly with backend services and APIs\nAdhere to coding standards, accessibility guidelines, and enterprise UI best practices\nPerform unit testing, UI validation, and defect fixing\nCollaborate closely with UX designers, backend engineers, and product stakeholders\nParticipate in code reviews and contribute to UI architecture and design decisions\nDemonstrate strong ownership and accountability for UI deliverables with high attention to detail and quality.\n",
+    "required_skills": [
+      "Java",
+      "Micro services",
+      "Spring Boot",
+      "PostgreSQL",
+      "Angular"
+    ],
+    "experience_required": "2+ years",
+    "created_at": "2026-04-27T10:21:02.000Z",
+    "location": "Hybrid (Bangalore)",
+    "salary": "15,00,000",
+    "role": null,
+    "years_of_exp": null,
+    "work_mode": null,
+    "skills": null,
+    "notice_period": null,
+    "candidate_name": null,
+    "recruiterId": null
+  },
+  {
+    "id": "1777323456975",
+    "recruiter_id": "1777323443766",
+    "title": "nb",
+    "description": "n ",
+    "required_skills": null,
+    "experience_required": null,
+    "created_at": "2026-04-27T15:27:37.000Z",
+    "location": "",
+    "salary": "",
+    "role": "n",
+    "years_of_exp": "",
+    "work_mode": "Remote",
+    "skills": [],
+    "notice_period": "",
+    "candidate_name": "",
+    "recruiterId": "1777323443766"
+  }
+]

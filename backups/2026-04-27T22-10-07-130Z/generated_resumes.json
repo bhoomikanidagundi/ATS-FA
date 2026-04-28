@@ -1,0 +1,131 @@
+[
+  {
+    "id": "1777196195312",
+    "userId": "1777190100646",
+    "content": {
+      "skills": {
+        "tools": [
+          "Git",
+          "AWS",
+          "Visual Studio Code",
+          "Vercel"
+        ],
+        "languages": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Java"
+        ],
+        "frameworks": [
+          "React",
+          "Next.js"
+        ]
+      },
+      "personal": {
+        "name": "Anusha",
+        "email": "anusha@gmail.com",
+        "phone": "6363461265",
+        "github": "anusha",
+        "summary": "Highly skilled and results-oriented Front-End Developer with nearly 2 years of experience in designing and developing robust, responsive, and user-centric web applications. Proven expertise in React, JavaScript, HTML, and CSS, with a strong track record of enhancing mobile accessibility and increasing user engagement. Eager to contribute strong front-end development and UI design expertise within an Agile delivery squad at Deutsche Bank, supporting digital transformation initiatives and maintaining high-quality standards through hands-on development and continuous integration practices.",
+        "linkedin": "anusha",
+        "location": "Bangalore"
+      },
+      "projects": [
+        {
+          "date": "",
+          "name": "E-Commerce Website",
+          "bullets": [
+            "Designed and developed a fully functional E-Commerce web application, focusing on responsive UI/UX and cross-browser compatibility.",
+            "Implemented core features including product catalog display, shopping cart functionality, user authentication, and order processing using React components.",
+            "Utilized modern front-end technologies to create an engaging and intuitive user interface, demonstrating strong hands-on development skills."
+          ],
+          "technologies": "HTML, CSS, JavaScript, React"
+        }
+      ],
+      "education": [
+        {
+          "date": "2023",
+          "degree": "B.Tech",
+          "school": "JSS",
+          "details": "",
+          "location": "Mysore"
+        }
+      ],
+      "experience": [
+        {
+          "date": "Jan 2023 – Present",
+          "title": "Front End Developer",
+          "bullets": [
+            "Engineered a high-performance, responsive web application utilizing React, JavaScript, HTML, and CSS, serving millions of users and enhancing mobile accessibility.",
+            "Drove a 25% increase in mobile traffic through optimized front-end performance and intuitive UI design, contributing to a seamless user experience.",
+            "Collaborated within an Agile development team, applying modern development practices to deliver high-quality code and support continuous integration processes."
+          ],
+          "company": "Amazon",
+          "location": "Bangalore"
+        }
+      ]
+    },
+    "jobDescription": "Job description\nDeutsche Bank continues to modernize its digital channels through several strategic and complex technology initiatives. As part of this transformation, the Bank is adopting Agile software development practices to improve agility, reduce time to market, and maintain high quality standards.\nAs a Senior Front-End Developer, the role holder will contribute strong front-end development and UI design expertise within an Agile delivery squad. The role involves hands-on development and the consistent application of Continuous Integration tools and practices in support of Deutsche Banks digitalization journey.\n",
+    "createdAt": "2026-04-26T04:06:35.000Z",
+    "inputData": null
+  },
+  {
+    "id": "1777261697583",
+    "userId": "1777261606793",
+    "content": {
+      "skills": {
+        "tools": [
+          "DASDSA"
+        ],
+        "languages": [
+          "ADSA"
+        ],
+        "frameworks": [
+          "ADDAS"
+        ]
+      },
+      "personal": {
+        "name": "MD-Zeeshan",
+        "email": "tejaswinishivashimpiger@gmail.com",
+        "phone": "9663341218",
+        "github": "",
+        "summary": "Highly motivated and adaptable professional with foundational experience across diverse functional areas, as demonstrated by practical exposure in various projects and roles. Eager to leverage a proactive approach and developing skills to contribute effectively and drive success within a dynamic organizational environment.",
+        "linkedin": "",
+        "location": "Dharwad"
+      },
+      "projects": [
+        {
+          "date": "",
+          "name": "DASDSA",
+          "bullets": [
+            "Developed and implemented DASDSA project, showcasing proficiency in SADDSA technologies."
+          ],
+          "technologies": "SADDSA"
+        }
+      ],
+      "education": [
+        {
+          "date": "SDADSA",
+          "degree": "ADSDS",
+          "school": "ASD",
+          "details": "",
+          "location": "ADSDSA"
+        }
+      ],
+      "experience": [
+        {
+          "date": "DAADS",
+          "title": "ADSDAS",
+          "bullets": [
+            "Managed ADSDADAS-related tasks, ensuring adherence to project specifications and operational guidelines."
+          ],
+          "company": "ASDASD",
+          "location": "ADSDAS"
+        }
+      ]
+    },
+    "jobDescription": "DSADSA",
+    "createdAt": "2026-04-26T22:18:17.000Z",
+    "inputData": null
+  }
+]
